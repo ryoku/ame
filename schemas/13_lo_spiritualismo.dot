@@ -1,0 +1,109 @@
+digraph spiritualismo {
+    graph [
+        rankdir=TB
+        fontname="Helvetica"
+        fontsize=13
+        bgcolor="#FAFAFA"
+        pad=0.5
+        splines=curved
+        nodesep=0.45
+        ranksep=0.9
+    ]
+    node [
+        fontname="Helvetica"
+        fontsize=11
+        style="filled,rounded"
+        shape=box
+        margin="0.22,0.10"
+    ]
+    edge [
+        fontname="Helvetica"
+        fontsize=9
+        color="#555555"
+        arrowsize=0.65
+    ]
+
+    // ── ROOT ──────────────────────────────────────────────────────────────
+    ROOT [label="LO SPIRITUALISMO ANTIPOSITIVISTA"
+          shape=ellipse fontsize=14 fontcolor=white
+          fillcolor="#2C3E50" color="#1A252F"]
+
+    // ── livello 1: macro-temi ─────────────────────────────────────────────
+    CGEN  [label="Caratteristiche Generali"   fillcolor="#2980B9" fontcolor=white color="#1F618D"]
+    BERG  [label="Henri Bergson (1859–1941)"  fillcolor="#8E44AD" fontcolor=white color="#6C3483"]
+    TEMPO [label="Analisi del Tempo"          fillcolor="#16A085" fontcolor=white color="#0E6655"]
+    MEM   [label="La Memoria"                 fillcolor="#D35400" fontcolor=white color="#A04000"]
+    SLAN  [label="Slancio Vitale (élan vital)" fillcolor="#C0392B" fontcolor=white color="#922B21"]
+    III   [label="Istinto · Intelligenza · Intuizione" fillcolor="#1ABC9C" fontcolor=white color="#148F77"]
+    SOC   [label="Società Chiusa vs Aperta"   fillcolor="#7D3C98" fontcolor=white color="#5B2C6F"]
+    REL   [label="Religione Statica vs Dinamica" fillcolor="#2E4057" fontcolor=white color="#1A252F"]
+
+    ROOT -> CGEN
+    ROOT -> BERG
+    ROOT -> TEMPO
+    ROOT -> MEM
+    ROOT -> SLAN
+    ROOT -> III
+    ROOT -> SOC
+    ROOT -> REL
+
+    // ── CARATTERISTICHE ───────────────────────────────────────────────────
+    C1 [label="Filosofia ≠ Scienza\n(problemi, metodi, risultati)" fillcolor="#AED6F1" color="#2980B9"]
+    C2 [label="Uomo = spirito libero\n(non determinato biologicamente\no socialmente: Spencer, Darwin,\nMarx, Comte)" fillcolor="#AED6F1" color="#2980B9"]
+    C3 [label="Metodo: ascolto\ndella coscienza" fillcolor="#AED6F1" color="#2980B9"]
+    C4 [label="Trascendenza dell'Assoluto/Dio\n(via introspezione e riflessione)" fillcolor="#AED6F1" color="#2980B9"]
+
+    CGEN -> C1; CGEN -> C2; CGEN -> C3; CGEN -> C4
+
+    // ── BERGSON ───────────────────────────────────────────────────────────
+    BVITA  [label="Vita\n• Parigi, famiglia ebrea\n• Collège de France 1900\n• Nobel Letteratura 1928\n• Leggi razziali naziste" fillcolor="#D7BDE2" color="#8E44AD"]
+    BOPERE [label="Opere\n• Saggi sui dati immediati (1889)\n• Materia e Memoria (1896)\n• L'evoluzione creatrice (1907)\n• Le due fonti della Morale\n  e della Religione" fillcolor="#D7BDE2" color="#8E44AD"]
+    BSPIRIT[label="Spiritualismo di Bergson\nChiave di lettura: la coscienza\nCritica alle filosofie spiritualiste\nprecedenti (astratte, anti-scienza)" fillcolor="#D7BDE2" color="#8E44AD"]
+
+    BERG -> BVITA; BERG -> BOPERE; BERG -> BSPIRIT
+
+    // ── TEMPO ─────────────────────────────────────────────────────────────
+    TSCI [label="Tempo della Scienza\n• Spazializzato, esteriore\n• Quantitativo, omogeneo\n• Misurabile (orologi)\n• Ripetibile / reversibile\n⚪ Collana di perle" fillcolor="#A9DFBF" color="#16A085"]
+    TVIT [label="Tempo della Vita (Durata Reale)\n• Flusso continuo\n• Qualitativo, eterogeneo\n• Irripetibile / irreversibile\n🧶 Gomitolo / Valanga" fillcolor="#A9DFBF" color="#16A085"]
+
+    TEMPO -> TSCI; TEMPO -> TVIT
+
+    // ── MEMORIA ───────────────────────────────────────────────────────────
+    M1 [label="Memoria pura\n(spirito: deposito\ndel passato)" fillcolor="#FAD7A0" color="#D35400"]
+    M2 [label="Ricordo immagine\n(passato → presente)" fillcolor="#FAD7A0" color="#D35400"]
+    M3 [label="Percezione\n(corpo → mondo esterno;\nseleziona dati utili)" fillcolor="#FAD7A0" color="#D35400"]
+
+    MEM -> M1; MEM -> M2; MEM -> M3
+
+    // ── SLANCIO VITALE ────────────────────────────────────────────────────
+    SL1 [label="Energia spirituale invisibile\nnon meccanicistica" fillcolor="#F1948A" color="#C0392B"]
+    SL2 [label="Evoluzione creatrice:\nlibera, imprevedibile\nautocreazione\n(spazio + tempo + divenire)" fillcolor="#F1948A" color="#C0392B"]
+    SL3 [label="Mondo vegetale\n(immobilismo, incoscienza)\n→ Mondo animale\n(mobilità, coscienza)\n💥 Simbolo: proiettile esploso" fillcolor="#F1948A" color="#C0392B"]
+
+    SLAN -> SL1; SLAN -> SL2; SLAN -> SL3
+
+    // ── ISTINTO / INTELLIGENZA / INTUIZIONE ───────────────────────────────
+    I1 [label="Istinto\n(animali: conserva\nla specie)" fillcolor="#A2D9CE" color="#1ABC9C"]
+    I2 [label="Intelligenza\n«istinto intelligente»\nInventa strumenti\nFonda la scienza\n(vita pratica)" fillcolor="#A2D9CE" color="#1ABC9C"]
+    I3 [label="Intuizione\nIlluminazione dello spirito\nCoglie l'essenza della vita\nMassima espressione: le Arti" fillcolor="#A2D9CE" color="#1ABC9C"]
+
+    III -> I1; III -> I2; III -> I3
+
+    // ── SOCIETÀ ───────────────────────────────────────────────────────────
+    SC [label="Società CHIUSA\n• Ragione, immobilità\n• Morale dell'obbligo\n• Religione statica\n• Es: famiglia, nazione" fillcolor="#D2B4DE" color="#7D3C98"]
+    SA [label="Società APERTA\n• Intuizione, slancio vitale\n• Morale assoluta\n• Religione dinamica\n• Es: Profeti, Socrate, Gesù" fillcolor="#D2B4DE" color="#7D3C98"]
+
+    SOC -> SC; SOC -> SA
+
+    // ── RELIGIONE ─────────────────────────────────────────────────────────
+    RS [label="Religione STATICA\n• Funzione fabulatrice\n  (miti, superstizioni)\n• Riti difensivi\n• Contro l'intelligenza" fillcolor="#AEB6BF" color="#2E4057"]
+    RD [label="Religione DINAMICA\n(Mistica)\n• Contatto diretto con Dio\n• Es: S. Paolo, S. Francesco,\n  S. Teresa, S. Giovanna d'Arco" fillcolor="#AEB6BF" color="#2E4057"]
+
+    REL -> RS; REL -> RD
+
+    // ── cross-links ───────────────────────────────────────────────────────
+    TVIT -> MEM  [style=dashed color="#888888" label="≡ coscienza\ninteriore" constraint=false]
+    SC   -> RS   [style=dashed color="#888888" label="associata a" constraint=false]
+    SA   -> RD   [style=dashed color="#888888" label="associata a" constraint=false]
+    I3   -> RD   [style=dashed color="#888888" label="porta a" constraint=false]
+}

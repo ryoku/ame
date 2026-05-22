@@ -1,0 +1,79 @@
+digraph ww1_ireland {
+    graph [
+        rankdir=LR
+        fontname="Helvetica"
+        fontsize=12
+        bgcolor="#FAFAFA"
+        pad=0.5
+        splines=ortho
+        nodesep=0.35
+        ranksep=1.1
+        size="11.69,8.27"
+        ratio=compress
+    ]
+    node [
+        fontname="Helvetica"
+        fontsize=9
+        style="filled,rounded"
+        shape=box
+        margin="0.15,0.09"
+        width=2.2
+    ]
+    edge [
+        fontname="Helvetica"
+        fontsize=8
+        color="#555555"
+        arrowsize=0.55
+    ]
+
+    // ══════════════════════════════════════════════════════════════════════
+    // ROOT
+    // ══════════════════════════════════════════════════════════════════════
+    ROOT [label="WW1 &\nIRISH INDEPENDENCE"
+          shape=ellipse fontsize=13 fontcolor=white width=2.6
+          fillcolor="#1B2631" color="#0A0F15"]
+
+    // ══════════════════════════════════════════════════════════════════════
+    // BRANCH 1 – WORLD WAR I
+    // ══════════════════════════════════════════════════════════════════════
+    WW1 [label="WORLD WAR I\n(1914 – 1918)"
+         fillcolor="#1A5276" fontcolor=white color="#154360" fontsize=11]
+
+    ROOT -> WW1
+
+    W1 [label="Cause: assassination of\nArchduke Franz Ferdinand (1914)\nCentral Powers vs Allies"           fillcolor="#AED6F1" color="#1A5276"]
+    W2 [label="Germany invades Belgium\n→ Britain enters the war\nTrenches: mud, gas, shell shock"          fillcolor="#AED6F1" color="#1A5276"]
+    W3 [label="Battle of the Somme:\n~60,000 British casualties\non the first day"                          fillcolor="#AED6F1" color="#1A5276"]
+    W4 [label="USA enters 1917\nArmistice: 11 Nov 1918\nTreaty of Versailles (1919)"                       fillcolor="#AED6F1" color="#1A5276"]
+    W5 [label="Consequences:\nmillions dead · 4 empires collapsed\nRussian Revolution\nrise of Mussolini & Hitler" fillcolor="#AED6F1" color="#1A5276"]
+    W6 [label="Peace: Lloyd George, Clemenceau,\nWoodrow Wilson (14 Points,\nLeague of Nations), Orlando"  fillcolor="#AED6F1" color="#1A5276"]
+
+    WW1 -> W1
+    WW1 -> W2
+    WW1 -> W3
+    WW1 -> W4
+    W4  -> W5
+    W4  -> W6
+
+    // ══════════════════════════════════════════════════════════════════════
+    // BRANCH 2 – IRISH INDEPENDENCE
+    // ══════════════════════════════════════════════════════════════════════
+    IRL [label="IRISH INDEPENDENCE"
+         fillcolor="#1E8449" fontcolor=white color="#196F3D" fontsize=11]
+
+    ROOT -> IRL
+
+    I1 [label="Act of Union (1801):\nIreland loses Parliament\nHome Rule bills (1885–1914) all fail"        fillcolor="#A9DFBF" color="#196F3D"]
+    I2 [label="Easter Rising (1916):\nIrish Republican Brotherhood\ndeclares republic in Dublin"            fillcolor="#A9DFBF" color="#196F3D"]
+    I3 [label="British executions → rebels\nbecome national heroes\nSinn Féin wins 1918 elections"         fillcolor="#A9DFBF" color="#196F3D"]
+    I4 [label="Dáil created (1919)\nWar of Independence\nled by Michael Collins"                           fillcolor="#A9DFBF" color="#196F3D"]
+    I5 [label="Anglo-Irish Treaty (1921):\nIrish Free State (dominion)\n6 northern counties stay UK"       fillcolor="#A9DFBF" color="#196F3D"]
+    I6 [label="Civil War (1922–23)\nde Valera → President (1959–73)\nGood Friday Agreement (1998)"         fillcolor="#A9DFBF" color="#196F3D"]
+
+    IRL -> I1
+    IRL -> I2
+    I2  -> I3
+    I3  -> I4
+    I4  -> I5
+    I5  -> I6
+}

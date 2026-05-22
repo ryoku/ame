@@ -1,0 +1,101 @@
+digraph aestheticism {
+    graph [
+        rankdir=LR
+        fontname="Helvetica"
+        fontsize=13
+        bgcolor="#FAFAFA"
+        pad=0.5
+        splines=ortho
+        nodesep=0.35
+        ranksep=1.1
+        size="11.69,8.27"
+        ratio=compress
+    ]
+    node [
+        fontname="Helvetica"
+        fontsize=10
+        style="filled,rounded"
+        shape=box
+        margin="0.18,0.10"
+        width=2.0
+    ]
+    edge [
+        fontname="Helvetica"
+        fontsize=8
+        color="#555555"
+        arrowsize=0.6
+    ]
+
+    // ── ROOT ─────────────────────────────────────────────────────────────
+    ROOT [label="AESTHETICISM\n(England, 2nd half of 19th century)"
+          shape=ellipse fontsize=13 fontcolor=white width=2.8
+          fillcolor="#1B2631" color="#0A0F15"]
+
+    // ── MACRO TOPICS ─────────────────────────────────────────────────────
+    HIST  [label="Historical\nContext"      fillcolor="#2980B9" fontcolor=white color="#1F618D"]
+    MOTTO [label="Core Motto"               fillcolor="#16A085" fontcolor=white color="#0E6655"]
+    PRINC [label="Key Principles"           fillcolor="#D35400" fontcolor=white color="#A04000"]
+    PATER [label="Walter Pater"             fillcolor="#8E44AD" fontcolor=white color="#6C3483"]
+    WILDE [label="Oscar Wilde\n& the Dandy" fillcolor="#C0392B" fontcolor=white color="#922B21"]
+
+    ROOT -> HIST
+    ROOT -> MOTTO
+    ROOT -> PRINC
+    ROOT -> PATER
+    ROOT -> WILDE
+
+    // ── HISTORICAL CONTEXT ───────────────────────────────────────────────
+    H1 [label="Reaction against\nVictorian society"                       fillcolor="#AED6F1" color="#2980B9"]
+    H2 [label="Victorian idea: art must be\nuseful and teach moral lessons" fillcolor="#AED6F1" color="#2980B9"]
+
+    HIST -> H1
+    HIST -> H2
+
+    // ── CORE MOTTO ───────────────────────────────────────────────────────
+    M1 [label="\"Art for Art's Sake\"\n(l'art pour l'art)"  fillcolor="#A9DFBF" color="#16A085"]
+    M2 [label="Art exists only to be beautiful"             fillcolor="#A9DFBF" color="#16A085"]
+    M3 [label="No moral message\nNo practical purpose"      fillcolor="#A9DFBF" color="#16A085"]
+
+    MOTTO -> M1
+    M1 -> M2
+    M1 -> M3
+
+    // ── KEY PRINCIPLES ───────────────────────────────────────────────────
+    P1 [label="Artist's role:\nfeel and express sensations"                     fillcolor="#FAD7A0" color="#D35400"]
+    P2 [label="Art gives pleasure to the senses"                                fillcolor="#FAD7A0" color="#D35400"]
+    P3 [label="Art is separate from\npolitics, religion, social problems"       fillcolor="#FAD7A0" color="#D35400"]
+    P4 [label="Beauty is the only thing\nthat matters in art"                   fillcolor="#FAD7A0" color="#D35400"]
+
+    PRINC -> P1
+    PRINC -> P2
+    PRINC -> P3
+    PRINC -> P4
+
+    // ── WALTER PATER ─────────────────────────────────────────────────────
+    PA1 [label="Main thinker of\nAestheticism in England"          fillcolor="#D7BDE2" color="#8E44AD"]
+    PA2 [label="Art = the only certain\nthing in life"             fillcolor="#D7BDE2" color="#8E44AD"]
+    PA3 [label="Goal of life: many strong\nand beautiful experiences" fillcolor="#D7BDE2" color="#8E44AD"]
+    PA4 [label="Art captures a moment\nand keeps it alive forever" fillcolor="#D7BDE2" color="#8E44AD"]
+    PA5 [label="Life should be lived\nlike a work of art"          fillcolor="#D7BDE2" color="#8E44AD"]
+
+    PATER -> PA1
+    PATER -> PA2
+    PATER -> PA3
+    PATER -> PA4
+    PATER -> PA5
+
+    // ── OSCAR WILDE & THE DANDY ──────────────────────────────────────────
+    W1  [label="Most famous figure\nof Aestheticism"                      fillcolor="#F1948A" color="#C0392B"]
+    W2  [label="\"Life imitates art\"\n→ reality is shaped by art"        fillcolor="#F1948A" color="#C0392B"]
+    DAN [label="The Dandy"  fillcolor="#C0392B" fontcolor=white color="#922B21"]
+    D1  [label="Elegance, good taste\nand beauty as a way of life"        fillcolor="#F1948A" color="#C0392B"]
+    D2  [label="Lives with luxury and style"                              fillcolor="#F1948A" color="#C0392B"]
+    D3  [label="Rejects middle-class values\n(hard work, following rules)" fillcolor="#F1948A" color="#C0392B"]
+
+    WILDE -> W1
+    WILDE -> W2
+    WILDE -> DAN
+    DAN   -> D1
+    DAN   -> D2
+    DAN   -> D3
+}

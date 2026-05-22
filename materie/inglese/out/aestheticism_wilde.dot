@@ -1,0 +1,114 @@
+digraph aestheticism_wilde {
+    graph [
+        rankdir=LR
+        fontname="Helvetica"
+        fontsize=12
+        bgcolor="#FAFAFA"
+        pad=0.5
+        splines=ortho
+        nodesep=0.32
+        ranksep=1.1
+        size="11.69,8.27"
+        ratio=compress
+    ]
+    node [
+        fontname="Helvetica"
+        fontsize=9
+        style="filled,rounded"
+        shape=box
+        margin="0.15,0.09"
+        width=2.1
+    ]
+    edge [
+        fontname="Helvetica"
+        fontsize=8
+        color="#555555"
+        arrowsize=0.55
+    ]
+
+    // ══════════════════════════════════════════════════════════════════════
+    // ROOT
+    // ══════════════════════════════════════════════════════════════════════
+    ROOT [label="AESTHETICISM\n& OSCAR WILDE"
+          shape=ellipse fontsize=13 fontcolor=white width=2.6
+          fillcolor="#1B2631" color="#0A0F15"]
+
+    // ══════════════════════════════════════════════════════════════════════
+    // BRANCH 1 – AESTHETICISM
+    // ══════════════════════════════════════════════════════════════════════
+    AEST [label="AESTHETICISM\n(England, late 19th c.)"
+          fillcolor="#117A65" fontcolor=white color="#0E6655" fontsize=11]
+
+    ROOT -> AEST
+
+    A1 [label="\"Art for Art's Sake\"\nArt exists only for beauty"     fillcolor="#A2D9CE" color="#148F77"]
+    A2 [label="Reaction vs Victorian values\n(art as moral/practical)"  fillcolor="#A2D9CE" color="#148F77"]
+    A3 [label="Walter Pater (theorist):\nlife as a work of art\n\"Life imitates art\"" fillcolor="#A2D9CE" color="#148F77"]
+
+    AEST -> A1
+    AEST -> A2
+    AEST -> A3
+
+    // ══════════════════════════════════════════════════════════════════════
+    // BRANCH 2 – OSCAR WILDE
+    // ══════════════════════════════════════════════════════════════════════
+    OW [label="OSCAR WILDE"
+        fillcolor="#6C3483" fontcolor=white color="#5B2C6F" fontsize=11]
+
+    ROOT -> OW
+    AEST -> OW [style=dashed color="#888888"]
+
+    O1 [label="Dublin 1854 → Oxford (Classics)\n→ London dandy"         fillcolor="#D7BDE2" color="#76448A"]
+    O2 [label="Influenced by Walter Pater"                              fillcolor="#D7BDE2" color="#76448A"]
+    O3 [label="Trial → 2 yrs prison\n→ died Paris, 1900"               fillcolor="#D7BDE2" color="#76448A"]
+    O4 [label="Works: plays (Lady Windermere's Fan,\nAn Ideal Husband, The Importance\nof Being Earnest, Salomé)\nDe Profundis · Ballad of Reading Gaol" fillcolor="#D7BDE2" color="#76448A"]
+
+    OW -> O1
+    OW -> O2
+    OW -> O3
+    OW -> O4
+
+    // ══════════════════════════════════════════════════════════════════════
+    // BRANCH 3 – THE PICTURE OF DORIAN GRAY
+    // ══════════════════════════════════════════════════════════════════════
+    DG [label="THE PICTURE OF\nDORIAN GRAY (1890)"
+        fillcolor="#1A5276" fontcolor=white color="#154360" fontsize=11]
+
+    ROOT -> DG
+    OW   -> DG [style=dashed color="#888888"]
+
+    // — Plot —
+    PLOT [label="Plot"                     fillcolor="#2E86C1" fontcolor=white color="#1A5276"]
+    PL1  [label="Dorian wishes to stay young\nwhile his portrait ages instead"          fillcolor="#AED6F1" color="#1A5276"]
+    PL2  [label="Corrupted by Lord Henry Wotton\n→ life of pleasure and excess"         fillcolor="#AED6F1" color="#1A5276"]
+    PL3  [label="Kills Basil Hallward\nthen stabs the portrait\n→ dies, portrait restored" fillcolor="#AED6F1" color="#1A5276"]
+
+    DG   -> PLOT
+    PLOT -> PL1
+    PLOT -> PL2
+    PLOT -> PL3
+
+    // — Characters —
+    CHAR [label="Characters"              fillcolor="#2E86C1" fontcolor=white color="#1A5276"]
+    CH1  [label="Dorian Gray:\nyouth & beauty → corruption"          fillcolor="#AED6F1" color="#1A5276"]
+    CH2  [label="Lord Henry Wotton:\namoral philosophy of aestheticism" fillcolor="#AED6F1" color="#1A5276"]
+    CH3  [label="Basil Hallward:\nmorality & conscience"              fillcolor="#AED6F1" color="#1A5276"]
+
+    DG   -> CHAR
+    CHAR -> CH1
+    CHAR -> CH2
+    CHAR -> CH3
+
+    // — Themes & Style —
+    THEM [label="Themes & Style"          fillcolor="#2E86C1" fontcolor=white color="#1A5276"]
+    T1   [label="Outer appearance vs inner reality\n(double nature of man)"             fillcolor="#AED6F1" color="#1A5276"]
+    T2   [label="Supremacy of beauty · eternal youth\ncritique of Victorian hypocrisy"  fillcolor="#AED6F1" color="#1A5276"]
+    T3   [label="Moral: every excess brings\nconsequences — no one escapes reality"     fillcolor="#AED6F1" color="#1A5276"]
+    T4   [label="Style: third person, witty dialogue,\nparadoxes — technique mirrors drama" fillcolor="#AED6F1" color="#1A5276"]
+
+    DG   -> THEM
+    THEM -> T1
+    THEM -> T2
+    THEM -> T3
+    THEM -> T4
+}

@@ -1,0 +1,94 @@
+digraph verismo {
+    graph [
+        rankdir=LR
+        fontname="Helvetica"
+        fontsize=13
+        bgcolor="#FAFAFA"
+        pad=0.6
+        splines=ortho
+        nodesep=0.35
+        ranksep=1.2
+    ]
+    node [
+        fontname="Helvetica"
+        fontsize=11
+        style="filled,rounded"
+        shape=box
+        margin="0.22,0.10"
+    ]
+    edge [
+        fontname="Helvetica"
+        fontsize=9
+        color="#555555"
+        arrowsize=0.65
+    ]
+
+    // ── ROOT ──────────────────────────────────────────────────────────────
+    ROOT [label="IL VERISMO ITALIANO\n(II metà Ottocento)"
+          shape=ellipse fontsize=14 fontcolor=white
+          fillcolor="#1B2631" color="#0A0F15"]
+
+    // ── LIVELLO 1: macro-temi ─────────────────────────────────────────────
+    ORIG  [label="Origini"                       fillcolor="#2980B9" fontcolor=white color="#1F618D"]
+    FOND  [label="I tre fondatori"               fillcolor="#8E44AD" fontcolor=white color="#6C3483"]
+    PRIN  [label="Principi estetici"             fillcolor="#16A085" fontcolor=white color="#0E6655"]
+    VISIO [label="Visione del mondo"             fillcolor="#D35400" fontcolor=white color="#A04000"]
+    TECN  [label="Tecnica narrativa"             fillcolor="#C0392B" fontcolor=white color="#922B21"]
+    CAP   [label="Luigi Capuana"                 fillcolor="#7D3C98" fontcolor=white color="#5B2C6F"]
+
+    ROOT -> ORIG
+    ROOT -> FOND
+    ROOT -> PRIN
+    ROOT -> VISIO
+    ROOT -> TECN
+    ROOT -> CAP
+
+    // ── ORIGINI ───────────────────────────────────────────────────────────
+    O1 [label="Naturalismo francese\n(Positivismo + approccio scientifico)" fillcolor="#AED6F1" color="#2980B9"]
+    O2 [label="Modelli: Flaubert, de Goncourt,\nMaupassant, Zola (1840-1902)" fillcolor="#AED6F1" color="#2980B9"]
+    O3 [label="Rielaborazione italiana\nda parte di scrittori siciliani\ntrasferiti a Milano" fillcolor="#AED6F1" color="#2980B9"]
+    O4 [label="Nome: volontà di raccontare\nil «vero» letterariamente\n(vs. Manzoni)" fillcolor="#AED6F1" color="#2980B9"]
+
+    ORIG -> O1; ORIG -> O2; ORIG -> O3; ORIG -> O4
+
+    // ── FONDATORI ─────────────────────────────────────────────────────────
+    F1 [label="Luigi Capuana\nIdeologo e critico\n(scrittore dei casi clinici)" fillcolor="#D7BDE2" color="#8E44AD"]
+    F2 [label="Giovanni Verga\nCantore dei «vinti»" fillcolor="#D7BDE2" color="#8E44AD"]
+    F3 [label="Federico De Roberto\nCronista dei «potenti»" fillcolor="#D7BDE2" color="#8E44AD"]
+    FMIL [label="Tutti e tre si trasferiscono\na Milano → sguardo obiettivo\nsulla situazione meridionale" fillcolor="#D7BDE2" color="#8E44AD"]
+
+    FOND -> F1; FOND -> F2; FOND -> F3; FOND -> FMIL
+
+    // ── PRINCIPI ESTETICI ─────────────────────────────────────────────────
+    P1 [label="Eclissi dell'autore\n(non giudica né partecipa\nemotivamente)" fillcolor="#A9DFBF" color="#16A085"]
+    P2 [label="Impersonalità dell'arte\n(le cose «parlano» da sole)\n[De Sanctis, Studio su Zola 1878]" fillcolor="#A9DFBF" color="#16A085"]
+    P3 [label="Romanzo come indagine\nscientifica sulla realtà" fillcolor="#A9DFBF" color="#16A085"]
+    P4 [label="Novella: tranche de vie\n(scena di vita vissuta)\n+ distacco impassibile" fillcolor="#A9DFBF" color="#16A085"]
+    P5 [label="Rottura con Manzoni\n(che partecipa e giudica\nmoralmente)" fillcolor="#A9DFBF" color="#16A085"]
+
+    PRIN -> P1; PRIN -> P2; PRIN -> P3; PRIN -> P4; PRIN -> P5
+
+    // ── VISIONE DEL MONDO ─────────────────────────────────────────────────
+    V1 [label="Questione meridionale\nDialettica centro (potere/economia)\nvs periferia (disagi, fiscalità,\nmentalità del profitto)" fillcolor="#FAD7A0" color="#D35400"]
+    V2 [label="Risorgimento tradito\nnei fatti" fillcolor="#FAD7A0" color="#D35400"]
+    V3 [label="Sicilia = allegoria nazionale\n(osservata a distanza da Milano)\n→ dimensione europea" fillcolor="#FAD7A0" color="#D35400"]
+    V4 [label="Nessuna denuncia politica\nveemente\n(≠ Zola progressista/socialista)" fillcolor="#FAD7A0" color="#D35400"]
+
+    VISIO -> V1; VISIO -> V2; VISIO -> V3; VISIO -> V4
+
+    // ── TECNICA NARRATIVA ─────────────────────────────────────────────────
+    T1 [label="Impersonalità: punto di vista\ndei vari personaggi\n(Capuana su L'Assommoir)" fillcolor="#F1948A" color="#C0392B"]
+    T2 [label="«Perfetta impersonalità»\n[Capuana sui Malavoglia di Verga]" fillcolor="#F1948A" color="#C0392B"]
+    T3 [label="Differenza dal Naturalismo:\nstile russo proprio,\ncomplesso, non solo\nmimesi documentaria" fillcolor="#F1948A" color="#C0392B"]
+
+    TECN -> T1; TECN -> T2; TECN -> T3
+
+    // ── LUIGI CAPUANA ─────────────────────────────────────────────────────
+    CB [label="Biografia\n• Nasce a Mineo (SI) 1839\n• 1865: incontra Verga a Firenze\n• 1877: Milano, «Corriere della Sera»\n• 1888: Roma, «La Fanciulla della Domenica»\n• 1915: muore a Catania" fillcolor="#D2B4DE" color="#7D3C98"]
+    CR [label="Ruolo\nScrittore + critico letterario\n→ ideologo del Verismo" fillcolor="#D2B4DE" color="#7D3C98"]
+    CO [label="Il Marchese di Roccaverdina (1901)\n«Caso clinico» psicopatologico:\n• Il Marchese ama Agrippina (contadina)\n• La fa sposare a Rocco Criscione\n  (senza consumare il matrimonio)\n• In un momento di pazzia uccide Rocco\n• Un innocente viene incolpato" fillcolor="#D2B4DE" color="#7D3C98"]
+    CC8 [label="Cap. 8 (analizzato)\n• Il cocchiere informa dell'omicidio\n• Il Marchese impazzisce, devasta la tenuta\n• Don Aquilante: cerca lo spirito di Rocco\n• Senso di colpa vs superiorità di classe\n  → la classe vince sul pentimento" fillcolor="#D2B4DE" color="#7D3C98"]
+
+    CAP -> CB; CAP -> CR; CAP -> CO
+    CO -> CC8
+}
