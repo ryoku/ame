@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1122 794" width="1122" height="794"
+     style="font-family: Georgia, 'Times New Roman', serif; background: #ffffff;">
+
+  <title>Mappa concettuale semplificata: Johann Fichte</title>
+
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="#555"
+            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- ══ NODO CENTRALE ══  x=361 y=35 w=400 h=60 cx=561 -->
+  <rect x="361" y="35" width="400" height="60" rx="12"
+        fill="#1a3a6a" stroke="#0a1a40" stroke-width="1"/>
+  <text x="561" y="60" text-anchor="middle"
+        font-size="17" font-weight="bold" fill="#ffffff">Johann Fichte (1762–1814)</text>
+  <text x="561" y="82" text-anchor="middle"
+        font-size="11" fill="#a0c0f0">Iniziatore dell'idealismo soggettivo</text>
+
+  <!-- ══ 4 RAMI PRINCIPALI dal nodo centrale ══
+       Sinistra-alto: L'IO ASSOLUTO        cx=180  y=160
+       Destra-alto:   DIALETTICA           cx=850  y=160
+       Sinistra-basso: MORALE E LIBERTÀ    cx=220  y=420
+       Centro-basso:   FILOSOFIA POLITICA  cx=620  y=420
+       Destra-basso:   DISCORSI NAZIONE    cx=960  y=420
+  -->
+
+  <!-- Freccia → IO ASSOLUTO -->
+  <path d="M450 65 L450 90 L180 90 L180 155"
+        fill="none" stroke="#5060b0" stroke-width="1.2"
+        marker-end="url(#arr)"/>
+
+  <!-- Freccia → DIALETTICA -->
+  <path d="M672 65 L672 90 L850 90 L850 155"
+        fill="none" stroke="#5060b0" stroke-width="1.2"
+        marker-end="url(#arr)"/>
+
+  <!-- Frecce verso row bassa (dal nodo) -->
+  <path d="M430 95 L430 360 L220 360 L220 415"
+        fill="none" stroke="#555" stroke-width="1"
+        marker-end="url(#arr)"/>
+  <path d="M561 95 L561 360 L620 360 L620 415"
+        fill="none" stroke="#555" stroke-width="1"
+        marker-end="url(#arr)"/>
+  <path d="M672 95 L672 360 L960 360 L960 415"
+        fill="none" stroke="#555" stroke-width="1"
+        marker-end="url(#arr)"/>
+
+  <!-- ══ L'IO ASSOLUTO  x=50 y=155 w=260 h=120 ══ -->
+  <rect x="50" y="155" width="260" height="120" rx="10"
+        fill="#e6eaf8" stroke="#4050a0" stroke-width="0.8"/>
+  <text x="180" y="180" text-anchor="middle"
+        font-size="14" font-weight="bold" fill="#1a2060">L'Io assoluto</text>
+  <line x1="70" y1="190" x2="290" y2="190" stroke="#8090d0" stroke-width="0.5"/>
+  <text x="180" y="207" text-anchor="middle" font-size="10" fill="#2a3880">Universale e trascendentale</text>
+  <text x="180" y="222" text-anchor="middle" font-size="10" fill="#2a3880">Non coincide con l'io individuale</text>
+  <text x="180" y="237" text-anchor="middle" font-size="10" fill="#2a3880">Attività creatrice infinita</text>
+  <text x="180" y="252" text-anchor="middle" font-size="10" fill="#2a3880">Il mondo = sua rappresentazione</text>
+
+  <!-- ══ DIALETTICA  x=620 y=155 w=460 h=120 ══ -->
+  <rect x="620" y="155" width="460" height="120" rx="10"
+        fill="#e6eaf8" stroke="#4050a0" stroke-width="0.8"/>
+  <text x="850" y="180" text-anchor="middle"
+        font-size="14" font-weight="bold" fill="#1a2060">Dialettica in tre momenti</text>
+  <line x1="640" y1="190" x2="1060" y2="190" stroke="#8090d0" stroke-width="0.5"/>
+  <!-- tre sotto-etichette inline -->
+  <text x="700" y="213" text-anchor="middle" font-size="11" font-weight="bold" fill="#3040a0">Tesi</text>
+  <text x="700" y="228" text-anchor="middle" font-size="10" fill="#3040a0">L'Io pone sé stesso</text>
+  <text x="700" y="243" text-anchor="middle" font-size="10" fill="#3040a0">Autoproduzione</text>
+
+  <line x1="762" y1="200" x2="762" y2="265" stroke="#b0b8e0" stroke-width="0.5"/>
+  <text x="850" y="213" text-anchor="middle" font-size="11" font-weight="bold" fill="#3040a0">Antitesi</text>
+  <text x="850" y="228" text-anchor="middle" font-size="10" fill="#3040a0">L'Io oppone il Non-Io</text>
+  <text x="850" y="243" text-anchor="middle" font-size="10" fill="#3040a0">Il mondo oggettivo</text>
+
+  <line x1="940" y1="200" x2="940" y2="265" stroke="#b0b8e0" stroke-width="0.5"/>
+  <text x="1000" y="213" text-anchor="middle" font-size="11" font-weight="bold" fill="#3040a0">Sintesi</text>
+  <text x="1000" y="228" text-anchor="middle" font-size="10" fill="#3040a0">Io e Non-Io si limitano</text>
+  <text x="1000" y="243" text-anchor="middle" font-size="10" fill="#3040a0">Nasce l'esperienza</text>
+
+  <!-- ══ COLLEGAMENTO Io → Dialettica ══ -->
+  <line x1="310" y1="215" x2="618" y2="215"
+        stroke="#8090d0" stroke-width="0.8" stroke-dasharray="5,3"
+        marker-end="url(#arr)"/>
+
+  <!-- ══ SEPARATORE orizzontale ══ -->
+  <line x1="50" y1="340" x2="1072" y2="340"
+        stroke="#ddd" stroke-width="0.8" stroke-dasharray="6,4"/>
+  <text x="561" y="356" text-anchor="middle"
+        font-size="10" fill="#aaa" font-style="italic">Conseguenze pratiche e politiche</text>
+
+  <!-- ══ MORALE E LIBERTÀ  x=50 y=370 w=330 h=160 ══ -->
+  <rect x="50" y="370" width="330" height="160" rx="10"
+        fill="#d8f2e6" stroke="#1a8050" stroke-width="0.8"/>
+  <text x="215" y="396" text-anchor="middle"
+        font-size="14" font-weight="bold" fill="#0a4020">Morale e libertà</text>
+  <line x1="70" y1="406" x2="360" y2="406" stroke="#60c090" stroke-width="0.5"/>
+  <text x="215" y="423" text-anchor="middle" font-size="10" fill="#1a5c30">Primato della ragione pratica</text>
+  <text x="215" y="438" text-anchor="middle" font-size="10" fill="#1a5c30">Agire &gt; conoscere</text>
+  <text x="215" y="458" text-anchor="middle" font-size="10" fill="#1a5c30">Libertà = sintesi di ideale e reale</text>
+  <text x="215" y="473" text-anchor="middle" font-size="10" fill="#1a5c30">Si conquista superando</text>
+  <text x="215" y="487" text-anchor="middle" font-size="10" fill="#1a5c30">la resistenza del Non-Io</text>
+  <text x="215" y="507" text-anchor="middle" font-size="10" fill="#1a5c30">La libertà si compie</text>
+  <text x="215" y="521" text-anchor="middle" font-size="10" fill="#1a5c30">solo nella comunità</text>
+
+  <!-- ══ FILOSOFIA POLITICA  x=400 y=370 w=360 h=160 ══ -->
+  <rect x="400" y="370" width="360" height="160" rx="10"
+        fill="#faebc8" stroke="#b07010" stroke-width="0.8"/>
+  <text x="580" y="396" text-anchor="middle"
+        font-size="14" font-weight="bold" fill="#4a2000">Filosofia politica</text>
+  <line x1="420" y1="406" x2="740" y2="406" stroke="#d0a050" stroke-width="0.5"/>
+  <text x="580" y="423" text-anchor="middle" font-size="10" fill="#6a3000">Lo Stato garantisce ordine e diritto</text>
+  <text x="580" y="438" text-anchor="middle" font-size="10" fill="#6a3000">Il diritto coordina le libertà individuali</text>
+  <text x="580" y="458" text-anchor="middle" font-size="10" fill="#6a3000">Stato commerciale chiuso:</text>
+  <text x="580" y="473" text-anchor="middle" font-size="10" fill="#6a3000">autosufficienza economica</text>
+  <text x="580" y="493" text-anchor="middle" font-size="10" fill="#6a3000">Indipendenza politica =</text>
+  <text x="580" y="507" text-anchor="middle" font-size="10" fill="#6a3000">indipendenza economica</text>
+
+  <!-- ══ DISCORSI ALLA NAZIONE  x=780 y=370 w=292 h=160 ══ -->
+  <rect x="780" y="370" width="292" height="160" rx="10"
+        fill="#fce8e8" stroke="#a03030" stroke-width="0.8"/>
+  <text x="926" y="396" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#5a0a0a">Discorsi alla nazione</text>
+  <text x="926" y="412" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#5a0a0a">tedesca (1807–08)</text>
+  <line x1="800" y1="422" x2="1052" y2="422" stroke="#d08080" stroke-width="0.5"/>
+  <text x="926" y="439" text-anchor="middle" font-size="10" fill="#7a1a1a">Missione morale e culturale</text>
+  <text x="926" y="454" text-anchor="middle" font-size="10" fill="#7a1a1a">del popolo tedesco</text>
+  <text x="926" y="474" text-anchor="middle" font-size="10" fill="#7a1a1a">Il dotto (intellettuale)</text>
+  <text x="926" y="489" text-anchor="middle" font-size="10" fill="#7a1a1a">guida la comunità</text>
+  <text x="926" y="509" text-anchor="middle" font-size="10" font-style="italic" fill="#9a3030">Attenzione: deformato</text>
+  <text x="926" y="523" text-anchor="middle" font-size="10" font-style="italic" fill="#9a3030">dal pangermanismo</text>
+
+  <!-- ══ SINTESI FINALE  x=50 y=570 w=1022 h=55 ══ -->
+  <rect x="50" y="570" width="1022" height="55" rx="10"
+        fill="#1a3a6a" stroke="#0a1a40" stroke-width="1"/>
+  <text x="561" y="593" text-anchor="middle"
+        font-size="14" font-weight="bold" fill="#ffffff">Sintesi: il soggetto non è spettatore, ma forza creatrice</text>
+  <text x="561" y="613" text-anchor="middle"
+        font-size="11" fill="#a0c0f0">L'uomo conosce, agisce e si libera nella storia, dentro una comunità che rende concreta la libertà di tutti</text>
+
+  <!-- Frecce verso sintesi -->
+  <path d="M215 530 L215 556 L561 556 L561 570"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <path d="M580 530 L580 556 L561 556"
+        fill="none" stroke="#555" stroke-width="1"/>
+  <path d="M926 530 L926 556 L561 556"
+        fill="none" stroke="#555" stroke-width="1"/>
+
+  <!-- ══ LEGENDA ══ -->
+  <rect x="50" y="648" width="12" height="12" rx="2" fill="#1a3a6a"/>
+  <text x="68" y="659" font-size="10" fill="#666">Nodo centrale / Sintesi</text>
+
+  <rect x="200" y="648" width="12" height="12" rx="2" fill="#e6eaf8" stroke="#4050a0" stroke-width="0.8"/>
+  <text x="218" y="659" font-size="10" fill="#666">Fondamenti teorici</text>
+
+  <rect x="340" y="648" width="12" height="12" rx="2" fill="#d8f2e6" stroke="#1a8050" stroke-width="0.8"/>
+  <text x="358" y="659" font-size="10" fill="#666">Etica e libertà</text>
+
+  <rect x="450" y="648" width="12" height="12" rx="2" fill="#faebc8" stroke="#b07010" stroke-width="0.8"/>
+  <text x="468" y="659" font-size="10" fill="#666">Filosofia politica</text>
+
+  <rect x="578" y="648" width="12" height="12" rx="2" fill="#fce8e8" stroke="#a03030" stroke-width="0.8"/>
+  <text x="596" y="659" font-size="10" fill="#666">Tarda filosofia</text>
+
+</svg>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1122 794" width="1122" height="794"
+     style="font-family: Georgia, 'Times New Roman', serif; background: #ffffff;">
+
+  <title>Mappa concettuale: Schelling — L'Assoluto come unità di Natura e Spirito</title>
+
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="#555"
+            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arr-d" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="#aaa"
+            stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- ══ NODO CENTRALE: SCHELLING ══  cx=561 y=32..92 -->
+  <rect x="311" y="32" width="500" height="60" rx="12"
+        fill="#3a1a6a" stroke="#1a0040" stroke-width="1"/>
+  <text x="561" y="57" text-anchor="middle"
+        font-size="17" font-weight="bold" fill="#ffffff">Friedrich W. J. Schelling (1775–1854)</text>
+  <text x="561" y="78" text-anchor="middle"
+        font-size="11" fill="#c0a8f8">Idealismo oggettivo — tra Fichte e Hegel</text>
+
+  <!-- ══ ROW 2: L'ASSOLUTO (centro) + PUNTO DI PARTENZA (sx) + CRITICA HEGEL (dx) ══ -->
+
+  <!-- Frecce nodo → row2 -->
+  <path d="M430 92 L430 108 L200 108 L200 125"
+        fill="none" stroke="#aaa" stroke-width="1" stroke-dasharray="5,3"
+        marker-end="url(#arr-d)"/>
+  <line x1="561" y1="92" x2="561" y2="125"
+        stroke="#6040b0" stroke-width="1.3" marker-end="url(#arr)"/>
+  <path d="M692 92 L692 108 L950 108 L950 125"
+        fill="none" stroke="#aaa" stroke-width="1" stroke-dasharray="5,3"
+        marker-end="url(#arr-d)"/>
+
+  <!-- Punto di partenza (Fichte): x=50 y=125 w=270 h=110 -->
+  <rect x="50" y="125" width="270" height="110" rx="9"
+        fill="#eae6f8" stroke="#6050b0" stroke-width="0.8"/>
+  <text x="185" y="149" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#2a1060">Punto di partenza: Fichte</text>
+  <line x1="68" y1="158" x2="302" y2="158" stroke="#a090d8" stroke-width="0.5"/>
+  <text x="185" y="174" text-anchor="middle" font-size="10" fill="#3a2080">Condivide: primato pratico e dialettica Io</text>
+  <text x="185" y="189" text-anchor="middle" font-size="10" fill="#3a2080">Supera: per Fichte la Natura è solo</text>
+  <text x="185" y="204" text-anchor="middle" font-size="10" fill="#3a2080">ostacolo (Non-Io); per Schelling ha</text>
+  <text x="185" y="219" text-anchor="middle" font-size="10" fill="#3a2080">dignità e valore propri</text>
+
+  <!-- L'ASSOLUTO (centro): x=340 y=125 w=442 h=110 -->
+  <rect x="340" y="125" width="442" height="110" rx="9"
+        fill="#2a0a5a" stroke="#1a0040" stroke-width="1"/>
+  <text x="561" y="150" text-anchor="middle"
+        font-size="14" font-weight="bold" fill="#ffffff">L'ASSOLUTO</text>
+  <text x="561" y="168" text-anchor="middle"
+        font-size="11" fill="#d0b8ff">Unità indifferenziata di Spirito e Natura</text>
+  <line x1="358" y1="176" x2="764" y2="176" stroke="#7060c0" stroke-width="0.5"/>
+  <text x="561" y="193" text-anchor="middle"
+        font-size="11" font-style="italic" fill="#e8d8ff">«La Natura è lo Spirito visibile,</text>
+  <text x="561" y="210" text-anchor="middle"
+        font-size="11" font-style="italic" fill="#e8d8ff">lo Spirito è la Natura invisibile»</text>
+  <text x="561" y="227" text-anchor="middle"
+        font-size="10" fill="#c0a8f0">Identificato con Dio (fase matura) — visione panteistica</text>
+
+  <!-- Critica di Hegel: x=802 y=125 w=270 h=110 -->
+  <rect x="802" y="125" width="270" height="110" rx="9"
+        fill="#f5eaea" stroke="#b03030" stroke-width="0.8" stroke-dasharray="6,3"/>
+  <text x="937" y="149" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#5a0a0a">Critica di Hegel</text>
+  <line x1="820" y1="158" x2="1054" y2="158" stroke="#d08080" stroke-width="0.5"/>
+  <text x="937" y="174" text-anchor="middle" font-size="10" fill="#7a1a1a">«Filosofia dell'identità assoluta»:</text>
+  <text x="937" y="189" text-anchor="middle" font-size="10" fill="#7a1a1a">annulla le differenze tra Spirito e Natura</text>
+  <text x="937" y="204" text-anchor="middle" font-size="10" font-style="italic" fill="#7a1a1a">«Una notte in cui tutte</text>
+  <text x="937" y="219" text-anchor="middle" font-size="10" font-style="italic" fill="#7a1a1a">le vacche sono nere»</text>
+
+  <!-- ══ ROW 3: DUE DIREZIONI FILOSOFICHE ══  y=260..390 -->
+
+  <!-- Frecce Assoluto → due direzioni -->
+  <path d="M450 235 L450 250 L250 250 L250 262"
+        fill="none" stroke="#6040b0" stroke-width="1.2" marker-end="url(#arr)"/>
+  <path d="M672 235 L672 250 L872 250 L872 262"
+        fill="none" stroke="#6040b0" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- Label sezione -->
+  <text x="561" y="252" text-anchor="middle"
+        font-size="10" fill="#888" font-style="italic">Due direzioni complementari</text>
+
+  <!-- Filosofia della Natura: x=50 y=262 w=400 h=128 -->
+  <rect x="50" y="262" width="400" height="128" rx="9"
+        fill="#e8f6ee" stroke="#2a9060" stroke-width="0.8"/>
+  <text x="250" y="286" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#0a4020">Filosofia della Natura</text>
+  <text x="250" y="302" text-anchor="middle"
+        font-size="10" fill="#1a6030">Lo Spirito emerge progressivamente dalla materia</text>
+  <line x1="68" y1="308" x2="432" y2="308" stroke="#60c090" stroke-width="0.5"/>
+  <!-- 4 gradi inline -->
+  <text x="250" y="324" text-anchor="middle" font-size="10" fill="#1a6030">① Mondo inorganico — spiritualità nascosta</text>
+  <text x="250" y="339" text-anchor="middle" font-size="10" fill="#1a6030">② Elettricità e magnetismo — forze di attrazione/repulsione</text>
+  <text x="250" y="354" text-anchor="middle" font-size="10" fill="#1a6030">③ Vita organica — prime tracce di autocoscienza</text>
+  <text x="250" y="369" text-anchor="middle" font-size="10" fill="#1a6030">④ L'uomo — vertice: la Natura diventa consapevole</text>
+  <text x="250" y="383" text-anchor="middle" font-size="10" font-style="italic" fill="#2a8050">La Natura è «spirito in potenza»</text>
+
+  <!-- Freccia circolare tra le due direzioni -->
+  <path d="M450 326 C520 290 602 290 672 326"
+        fill="none" stroke="#6040b0" stroke-width="1"
+        stroke-dasharray="5,3" marker-end="url(#arr)"/>
+  <path d="M672 356 C602 392 520 392 450 356"
+        fill="none" stroke="#6040b0" stroke-width="1"
+        stroke-dasharray="5,3" marker-end="url(#arr)"/>
+  <text x="561" y="308" text-anchor="middle" font-size="9" fill="#6040b0" font-style="italic">cerchio</text>
+  <text x="561" y="320" text-anchor="middle" font-size="9" fill="#6040b0" font-style="italic">dell'Assoluto</text>
+
+  <!-- Filosofia dello Spirito: x=672 y=262 w=400 h=128 -->
+  <rect x="672" y="262" width="400" height="128" rx="9"
+        fill="#e8f6ee" stroke="#2a9060" stroke-width="0.8"/>
+  <text x="872" y="286" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#0a4020">Filosofia dello Spirito</text>
+  <text x="872" y="302" text-anchor="middle"
+        font-size="10" fill="#1a6030">Lo Spirito si riconosce come Natura</text>
+  <line x1="690" y1="308" x2="1054" y2="308" stroke="#60c090" stroke-width="0.5"/>
+  <text x="872" y="324" text-anchor="middle" font-size="10" fill="#1a6030">Percorso inverso: dalla soggettività alla Natura</text>
+  <text x="872" y="339" text-anchor="middle" font-size="10" fill="#1a6030">Gradi: sensibilità → intuizione → riflessione → volontà</text>
+  <text x="872" y="359" text-anchor="middle" font-size="10" fill="#1a6030">L'uomo come punto in cui Spirito</text>
+  <text x="872" y="374" text-anchor="middle" font-size="10" fill="#1a6030">e Natura si ricongiungono</text>
+
+  <!-- ══ ROW 4: ARTE + RELIGIONE/DIO + UOMO ══  y=418..538 -->
+
+  <!-- Frecce row3 → row4 -->
+  <path d="M250 390 L250 410 L200 410 L200 420"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <path d="M561 390 L561 420"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <path d="M872 390 L872 410 L900 410 L900 420"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+
+  <!-- L'Arte: x=50 y=420 w=300 h=118 -->
+  <rect x="50" y="420" width="300" height="118" rx="9"
+        fill="#fdf0d8" stroke="#c07820" stroke-width="0.8"/>
+  <text x="200" y="444" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#4a2800">L'Arte</text>
+  <line x1="68" y1="453" x2="332" y2="453" stroke="#d0a050" stroke-width="0.5"/>
+  <text x="200" y="469" text-anchor="middle" font-size="10" fill="#6a3800">Luogo in cui si coglie l'Assoluto</text>
+  <text x="200" y="484" text-anchor="middle" font-size="10" fill="#6a3800">Unisce conscio (tecnica) e inconscio (ispirazione)</text>
+  <text x="200" y="499" text-anchor="middle" font-size="10" fill="#6a3800">Punto d'incontro di Natura e Spirito</text>
+  <text x="200" y="514" text-anchor="middle" font-size="10" fill="#6a3800">L'osservatore raggiunge l'estasi</text>
+  <text x="200" y="529" text-anchor="middle" font-size="10" font-style="italic" fill="#8a5000">Schelling: massimo esponente dell'idealismo estetico</text>
+
+  <!-- Dio e Religione: x=370 y=420 w=382 h=118 -->
+  <rect x="370" y="420" width="382" height="118" rx="9"
+        fill="#f0eaff" stroke="#7050c0" stroke-width="0.8"/>
+  <text x="561" y="444" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#2a1060">Dio e Religione</text>
+  <line x1="388" y1="453" x2="734" y2="453" stroke="#a080e0" stroke-width="0.5"/>
+  <text x="561" y="469" text-anchor="middle" font-size="10" fill="#3a2080">Panteismo: tutto è in Dio, non tutto è Dio</text>
+  <text x="561" y="484" text-anchor="middle" font-size="10" fill="#3a2080">Natura = parte oscura/inconscia di Dio</text>
+  <text x="561" y="499" text-anchor="middle" font-size="10" fill="#3a2080">Il male non è pura negatività: è in Dio</text>
+  <text x="561" y="514" text-anchor="middle" font-size="10" fill="#3a2080">Il Bene vince eternamente nell'Assoluto</text>
+  <text x="561" y="529" text-anchor="middle" font-size="10" fill="#3a2080">Il Cristianesimo (Incarnazione) = religione più perfetta</text>
+
+  <!-- L'Uomo: x=772 y=420 w=300 h=118 -->
+  <rect x="772" y="420" width="300" height="118" rx="9"
+        fill="#fdf0d8" stroke="#c07820" stroke-width="0.8"/>
+  <text x="922" y="444" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#4a2800">L'Uomo</text>
+  <line x1="790" y1="453" x2="1054" y2="453" stroke="#d0a050" stroke-width="0.5"/>
+  <text x="922" y="469" text-anchor="middle" font-size="10" fill="#6a3800">Vertice dell'evoluzione naturale</text>
+  <text x="922" y="484" text-anchor="middle" font-size="10" fill="#6a3800">Punto in cui la Natura diventa consapevole</text>
+  <text x="922" y="499" text-anchor="middle" font-size="10" fill="#6a3800">«Dio caduto»: natura divina ma ha scelto</text>
+  <text x="922" y="514" text-anchor="middle" font-size="10" fill="#6a3800">la ribellione per libero atto di volontà</text>
+  <text x="922" y="529" text-anchor="middle" font-size="10" fill="#6a3800">La ragione da sola non basta: serve la fede</text>
+
+  <!-- ══ SINTESI FINALE ══  y=572..630 -->
+
+  <!-- Frecce → sintesi -->
+  <path d="M200 538 L200 558 L561 558 L561 572"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <path d="M561 538 L561 572"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <path d="M922 538 L922 558 L561 558"
+        fill="none" stroke="#555" stroke-width="1"/>
+
+  <rect x="80" y="572" width="962" height="55" rx="10"
+        fill="#2a0a5a" stroke="#1a0040" stroke-width="1"/>
+  <text x="561" y="595" text-anchor="middle"
+        font-size="14" font-weight="bold" fill="#ffffff">Sintesi: Natura e Spirito sono due facce dello stesso Assoluto</text>
+  <text x="561" y="615" text-anchor="middle"
+        font-size="11" fill="#c0a8f8">L'uomo è il punto in cui l'Assoluto prende coscienza di sé — attraverso arte, filosofia e fede</text>
+
+  <!-- ══ LEGENDA ══ -->
+  <rect x="80" y="650" width="12" height="12" rx="2" fill="#2a0a5a"/>
+  <text x="98" y="661" font-size="10" fill="#555">Nodo centrale / Sintesi</text>
+
+  <rect x="235" y="650" width="12" height="12" rx="2" fill="#eae6f8" stroke="#6050b0" stroke-width="0.8"/>
+  <text x="253" y="661" font-size="10" fill="#555">Contesto (Fichte)</text>
+
+  <rect x="370" y="650" width="12" height="12" rx="2" fill="#e8f6ee" stroke="#2a9060" stroke-width="0.8"/>
+  <text x="388" y="661" font-size="10" fill="#555">Filosofia di Natura e Spirito</text>
+
+  <rect x="555" y="650" width="12" height="12" rx="2" fill="#fdf0d8" stroke="#c07820" stroke-width="0.8"/>
+  <text x="573" y="661" font-size="10" fill="#555">Arte e Uomo</text>
+
+  <rect x="660" y="650" width="12" height="12" rx="2" fill="#f0eaff" stroke="#7050c0" stroke-width="0.8"/>
+  <text x="678" y="661" font-size="10" fill="#555">Religione e Dio</text>
+
+  <rect x="775" y="650" width="12" height="12" rx="2" fill="#f5eaea" stroke="#b03030" stroke-width="0.8" stroke-dasharray="4,2"/>
+  <text x="793" y="661" font-size="10" fill="#555">Critica di Hegel</text>
+
+  <line x1="900" y1="656" x2="920" y2="656" stroke="#999" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="926" y="661" font-size="10" fill="#555">Relazione critica</text>
+
+  <line x1="1020" y1="656" x2="1040" y2="656" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <text x="1046" y="661" font-size="10" fill="#555">Derivazione</text>
+
+</svg>
