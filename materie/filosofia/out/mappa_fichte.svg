@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1122 794" width="1122" height="794"
+     style="font-family: Georgia, 'Times New Roman', serif; background: #ffffff;">
+
+  <title>Mappa concettuale: Johann Fichte — idealismo, libertà e Stato</title>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="#555" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arrow-d" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="#999" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- ══════════════════════════════════════════════════
+       LAYOUT — A4 landscape 1122×794, margine 30px
+       Usable: x=30..1092, y=30..764
+
+       ROW 1  y=35..95    Nodo centrale FICHTE (x=361..761 w=400)
+       ROW 2  y=115..175  3 colonne radici:
+                          DOTTRINA DELLA SCIENZA (x=50..310 w=260)
+                          IO ASSOLUTO (x=431..691 w=260)
+                          IDEALISMO SOGG. (x=812..1072 w=260)
+       ROW 3  y=200..300  Dialettica 3 momenti — banda intera
+       ROW 4  y=320..420  2 colonne:
+                          ATTIVITÀ TEORETICA (x=50..360 w=310)
+                          ATTIVITÀ PRATICA (x=400..710 w=310)
+                          + PRIMATO RAGIONE PRATICA (x=750..1072 w=322)
+       ROW 5  y=440..530  MORALE → LIBERTÀ (x=50..530 w=480)
+                          + RELAZIONE CON GLI ALTRI (x=570..1072 w=502)
+       ROW 6  y=550..640  STATO (x=50..530 w=480)
+                          + STATO COMMERCIALE CHIUSO (x=570..1072 w=502)
+       ROW 7  y=660..730  DISCORSI ALLA NAZIONE (x=50..680 w=630)
+                          + DISTINZIONE (x=720..1072 w=352)
+       ROW 8  y=748..778  Legenda
+  ══════════════════════════════════════════════════ -->
+
+  <!-- ── SFONDO SEZIONI ── -->
+  <!-- Dialettica -->
+  <rect x="30" y="192" width="1062" height="112" rx="10"
+        fill="#f0f4ff" stroke="#b0bce0" stroke-width="0.5"/>
+  <!-- Attività -->
+  <rect x="30" y="315" width="1062" height="112" rx="10"
+        fill="#f7f3ff" stroke="#c0b0e0" stroke-width="0.5"/>
+  <!-- Morale/Libertà + Relazione -->
+  <rect x="30" y="432" width="1062" height="104" rx="10"
+        fill="#f0faf5" stroke="#a0d0b8" stroke-width="0.5"/>
+  <!-- Stato -->
+  <rect x="30" y="545" width="1062" height="100" rx="10"
+        fill="#fdf6ee" stroke="#e0c890" stroke-width="0.5"/>
+
+  <!-- ══ NODO CENTRALE ══ -->
+  <!-- x=361 y=35 w=400 h=60 → cx=561 cy=65 -->
+  <rect x="361" y="35" width="400" height="60" rx="12"
+        fill="#1a3a6a" stroke="#0a1a40" stroke-width="1"/>
+  <text x="561" y="59" text-anchor="middle"
+        font-size="17" font-weight="bold" fill="#ffffff">Johann Fichte (1762–1814)</text>
+  <text x="561" y="81" text-anchor="middle"
+        font-size="11" fill="#a0c0f0">Filosofo tedesco — iniziatore dell'idealismo soggettivo</text>
+
+  <!-- Frecce nodo → 3 box sopra -->
+  <path d="M450 95 L450 108 L180 108 L180 115"
+        fill="none" stroke="#999" stroke-width="1" stroke-dasharray="5,3"
+        marker-end="url(#arrow-d)"/>
+  <line x1="561" y1="95" x2="561" y2="115"
+        stroke="#999" stroke-width="1" stroke-dasharray="5,3"
+        marker-end="url(#arrow-d)"/>
+  <path d="M672 95 L672 108 L942 108 L942 115"
+        fill="none" stroke="#999" stroke-width="1" stroke-dasharray="5,3"
+        marker-end="url(#arrow-d)"/>
+
+  <!-- ══ ROW 2 — tre box ══ -->
+  <!-- Dottrina della scienza: x=50 y=115 w=260 h=60 -->
+  <rect x="50" y="115" width="260" height="60" rx="8"
+        fill="#e6eaf8" stroke="#5060b0" stroke-width="0.8"/>
+  <text x="180" y="138" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#1a2060">Dottrina della scienza</text>
+  <text x="180" y="156" text-anchor="middle"
+        font-size="10" fill="#3040a0">Avviata nel 1794, più volte rielaborata</text>
+  <text x="180" y="168" text-anchor="middle"
+        font-size="10" fill="#3040a0">Basi di conoscenza, morale, azione</text>
+
+  <!-- Io assoluto: x=431 y=115 w=260 h=60 -->
+  <rect x="431" y="115" width="260" height="60" rx="8"
+        fill="#e6eaf8" stroke="#5060b0" stroke-width="0.8"/>
+  <text x="561" y="138" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#1a2060">L'Io assoluto</text>
+  <text x="561" y="156" text-anchor="middle"
+        font-size="10" fill="#3040a0">Universale, trascendentale, puro</text>
+  <text x="561" y="168" text-anchor="middle"
+        font-size="10" fill="#3040a0">Attività creatrice infinita</text>
+
+  <!-- Idealismo soggettivo: x=812 y=115 w=260 h=60 -->
+  <rect x="812" y="115" width="260" height="60" rx="8"
+        fill="#e6eaf8" stroke="#5060b0" stroke-width="0.8"/>
+  <text x="942" y="138" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#1a2060">Idealismo soggettivo</text>
+  <text x="942" y="156" text-anchor="middle"
+        font-size="10" fill="#3040a0">Il mondo = rappresentazione dell'Io</text>
+  <text x="942" y="168" text-anchor="middle"
+        font-size="10" fill="#3040a0">Soggetto non spettatore, ma creatore</text>
+
+  <!-- ══ ROW 3 — DIALETTICA ══ -->
+  <!-- Label sezione -->
+  <text x="561" y="212" text-anchor="middle"
+        font-size="11" fill="#5060b0" font-style="italic">Dialettica in tre momenti (Dottrina della scienza)</text>
+
+  <!-- Freccia Io assoluto → dialettica -->
+  <line x1="561" y1="175" x2="561" y2="192"
+        stroke="#5060b0" stroke-width="1"
+        marker-end="url(#arrow)"/>
+
+  <!-- Momento 1 TESI: x=50 y=222 w=300 h=72 -->
+  <rect x="50" y="222" width="300" height="72" rx="8"
+        fill="#dde3f8" stroke="#4050a0" stroke-width="0.8"/>
+  <text x="200" y="244" text-anchor="middle"
+        font-size="12" font-weight="bold" fill="#1a2060">1. Tesi — L'Io pone se stesso</text>
+  <text x="200" y="262" text-anchor="middle"
+        font-size="10" fill="#2a3080">L'Io è attività che si autoproduce</text>
+  <text x="200" y="278" text-anchor="middle"
+        font-size="10" fill="#2a3080">e prende coscienza di sé</text>
+
+  <!-- Momento 2 ANTITESI: x=411 y=222 w=300 h=72 -->
+  <rect x="411" y="222" width="300" height="72" rx="8"
+        fill="#dde3f8" stroke="#4050a0" stroke-width="0.8"/>
+  <text x="561" y="244" text-anchor="middle"
+        font-size="12" font-weight="bold" fill="#1a2060">2. Antitesi — Il Non-Io</text>
+  <text x="561" y="262" text-anchor="middle"
+        font-size="10" fill="#2a3080">L'Io oppone a sé il mondo oggettivo</text>
+  <text x="561" y="278" text-anchor="middle"
+        font-size="10" fill="#2a3080">Necessario per conoscere</text>
+
+  <!-- Momento 3 SINTESI: x=772 y=222 w=300 h=72 -->
+  <rect x="772" y="222" width="300" height="72" rx="8"
+        fill="#dde3f8" stroke="#4050a0" stroke-width="0.8"/>
+  <text x="922" y="244" text-anchor="middle"
+        font-size="12" font-weight="bold" fill="#1a2060">3. Sintesi — Limitazione reciproca</text>
+  <text x="922" y="262" text-anchor="middle"
+        font-size="10" fill="#2a3080">Io e Non-Io si limitano a vicenda</text>
+  <text x="922" y="278" text-anchor="middle"
+        font-size="10" fill="#2a3080">Nasce la pluralità dell'esperienza</text>
+
+  <!-- Frecce tra momenti -->
+  <line x1="350" y1="258" x2="409" y2="258"
+        stroke="#4050a0" stroke-width="1"
+        marker-end="url(#arrow)"/>
+  <line x1="711" y1="258" x2="770" y2="258"
+        stroke="#4050a0" stroke-width="1"
+        marker-end="url(#arrow)"/>
+
+  <!-- ══ ROW 4 — ATTIVITÀ ══ -->
+  <text x="400" y="335" text-anchor="middle"
+        font-size="11" fill="#6050a0" font-style="italic">Due forme di attività umana</text>
+
+  <!-- Frecce sintesi → attività -->
+  <path d="M200 294 L200 308 L200 325"
+        fill="none" stroke="#555" stroke-width="1"
+        marker-end="url(#arrow)"/>
+  <path d="M561 294 L561 308 L530 308 L530 325"
+        fill="none" stroke="#555" stroke-width="1"
+        marker-end="url(#arrow)"/>
+
+  <!-- Attività teoretica: x=50 y=325 w=310 h=90 -->
+  <rect x="50" y="325" width="310" height="90" rx="8"
+        fill="#ede8f8" stroke="#7060c0" stroke-width="0.8"/>
+  <text x="205" y="348" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#2a1a60">Attività teoretica</text>
+  <text x="205" y="366" text-anchor="middle"
+        font-size="10" fill="#4a3080">Legata alla conoscenza</text>
+  <text x="205" y="382" text-anchor="middle"
+        font-size="10" fill="#4a3080">Il soggetto si trova limitato dall'oggetto</text>
+  <text x="205" y="398" text-anchor="middle"
+        font-size="10" fill="#4a3080">→ spiegare il mondo com'è</text>
+
+  <!-- Attività pratica: x=380 y=325 w=310 h=90 -->
+  <rect x="380" y="325" width="310" height="90" rx="8"
+        fill="#ede8f8" stroke="#7060c0" stroke-width="0.8"/>
+  <text x="535" y="348" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#2a1a60">Attività pratica</text>
+  <text x="535" y="366" text-anchor="middle"
+        font-size="10" fill="#4a3080">Legata all'agire morale</text>
+  <text x="535" y="382" text-anchor="middle"
+        font-size="10" fill="#4a3080">Superare i limiti del Non-Io</text>
+  <text x="535" y="398" text-anchor="middle"
+        font-size="10" fill="#4a3080">→ trasformare il mondo</text>
+
+  <!-- Primato ragione pratica: x=710 y=325 w=352 h=90 -->
+  <rect x="710" y="325" width="352" height="90" rx="8"
+        fill="#ddd0f0" stroke="#5040a0" stroke-width="1"/>
+  <text x="886" y="348" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#1a0a50">Primato della ragione pratica</text>
+  <text x="886" y="366" text-anchor="middle"
+        font-size="10" fill="#3a2070">Non basta conoscere il mondo:</text>
+  <text x="886" y="382" text-anchor="middle"
+        font-size="10" fill="#3a2070">bisogna agire per cambiarlo</text>
+  <text x="886" y="398" text-anchor="middle"
+        font-size="10" fill="#3a2070">La pratica guida la teoria</text>
+
+  <!-- Freccia pratica → primato -->
+  <line x1="690" y1="370" x2="708" y2="370"
+        stroke="#5040a0" stroke-width="1"
+        marker-end="url(#arrow)"/>
+
+  <!-- ══ ROW 5 — MORALE / LIBERTÀ + RELAZIONE ══ -->
+
+  <!-- Freccia attività pratica → morale -->
+  <path d="M535 415 L535 432"
+        fill="none" stroke="#555" stroke-width="1"
+        marker-end="url(#arrow)"/>
+
+  <!-- Morale → Libertà: x=50 y=442 w=480 h=84 -->
+  <rect x="50" y="442" width="480" height="84" rx="8"
+        fill="#d8f2e6" stroke="#209060" stroke-width="0.8"/>
+  <text x="290" y="464" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#0a4020">Morale e libertà</text>
+  <text x="290" y="482" text-anchor="middle"
+        font-size="10" fill="#1a6030">Morale = lato ideale  |  Azione = lato reale</text>
+  <text x="290" y="498" text-anchor="middle"
+        font-size="10" fill="#1a6030">Libertà = sintesi: superare la resistenza del Non-Io</text>
+  <text x="290" y="514" text-anchor="middle"
+        font-size="10" fill="#1a6030">L'uomo libero è chi agisce e si forgia nell'ostacolo</text>
+
+  <!-- Relazione con gli altri: x=550 y=442 w=542 h=84 -->
+  <rect x="550" y="442" width="542" height="84" rx="8"
+        fill="#d8f2e6" stroke="#209060" stroke-width="0.8"/>
+  <text x="821" y="464" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#0a4020">La libertà richiede la comunità</text>
+  <text x="821" y="482" text-anchor="middle"
+        font-size="10" fill="#1a6030">L'uomo si compie solo nella relazione con gli altri</text>
+  <text x="821" y="498" text-anchor="middle"
+        font-size="10" fill="#1a6030">La libertà individuale chiede una forma giuridica</text>
+  <text x="821" y="514" text-anchor="middle"
+        font-size="10" fill="#1a6030">Il diritto coordina le libertà verso la libertà collettiva</text>
+
+  <!-- ══ ROW 6 — STATO ══ -->
+
+  <!-- Frecce verso riga stato -->
+  <path d="M290 526 L290 538 L290 545"
+        fill="none" stroke="#555" stroke-width="1"
+        marker-end="url(#arrow)"/>
+  <path d="M821 526 L821 538 L821 545"
+        fill="none" stroke="#555" stroke-width="1"
+        marker-end="url(#arrow)"/>
+
+  <!-- Stato (funzioni): x=50 y=555 w=460 h=80 -->
+  <rect x="50" y="555" width="460" height="80" rx="8"
+        fill="#faebc8" stroke="#c08020" stroke-width="0.8"/>
+  <text x="280" y="577" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#5a2a00">Lo Stato</text>
+  <text x="280" y="595" text-anchor="middle"
+        font-size="10" fill="#7a3a00">Garantisce ordine, diritto, lavoro, sussistenza</text>
+  <text x="280" y="611" text-anchor="middle"
+        font-size="10" fill="#7a3a00">Il diritto = condizione per la libertà, non solo limite</text>
+  <text x="280" y="627" text-anchor="middle"
+        font-size="10" fill="#7a3a00">Orienta le libertà verso la razionalità collettiva</text>
+
+  <!-- Stato commerciale chiuso: x=530 y=555 w=562 h=80 -->
+  <rect x="530" y="555" width="562" height="80" rx="8"
+        fill="#faebc8" stroke="#c08020" stroke-width="0.8"/>
+  <text x="811" y="577" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#5a2a00">Stato commerciale chiuso</text>
+  <text x="811" y="595" text-anchor="middle"
+        font-size="10" fill="#7a3a00">Nazione economicamente autosufficiente</text>
+  <text x="811" y="611" text-anchor="middle"
+        font-size="10" fill="#7a3a00">Stato regola produzione, lavoro, distribuzione</text>
+  <text x="811" y="627" text-anchor="middle"
+        font-size="10" fill="#7a3a00">Indipendenza politica = indipendenza economica</text>
+
+  <!-- ══ ROW 7 — DISCORSI ══ -->
+
+  <!-- Frecce verso riga discorsi -->
+  <path d="M280 635 L280 648 L380 648 L380 660"
+        fill="none" stroke="#555" stroke-width="1"
+        marker-end="url(#arrow)"/>
+
+  <!-- Discorsi alla nazione tedesca: x=50 y=660 w=620 h=72 -->
+  <rect x="50" y="660" width="620" height="72" rx="8"
+        fill="#fce8e8" stroke="#b03030" stroke-width="0.8"/>
+  <text x="360" y="682" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#5a0a0a">Discorsi alla nazione tedesca (1807–08)</text>
+  <text x="360" y="700" text-anchor="middle"
+        font-size="10" fill="#8a1a1a">Missione morale e culturale del popolo tedesco</text>
+  <text x="360" y="716" text-anchor="middle"
+        font-size="10" fill="#8a1a1a">Il "dotto" (intellettuale) educa e guida la comunità verso la libertà</text>
+
+  <!-- Distinzione interpretazioni: x=690 y=660 w=382 h=72 -->
+  <rect x="690" y="660" width="382" height="72" rx="8"
+        fill="#fff0f0" stroke="#c05050" stroke-width="0.8" stroke-dasharray="5,3"/>
+  <text x="881" y="682" text-anchor="middle"
+        font-size="12" font-weight="bold" fill="#6a0a0a">Distinzione essenziale</text>
+  <text x="881" y="700" text-anchor="middle"
+        font-size="10" fill="#8a1a1a">Fichte: primato culturale e morale</text>
+  <text x="881" y="716" text-anchor="middle"
+        font-size="10" fill="#8a1a1a">Pangermanismo/nazismo: deformazione biologista</text>
+
+  <!-- Freccia discorsi → distinzione -->
+  <line x1="670" y1="696" x2="688" y2="696"
+        stroke="#b03030" stroke-width="1" stroke-dasharray="4,2"
+        marker-end="url(#arrow-d)"/>
+
+  <!-- ══ LEGENDA ══ -->
+  <rect x="30" y="750" width="12" height="12" rx="2" fill="#1a3a6a"/>
+  <text x="48" y="761" font-size="10" fill="#555">Nodo centrale</text>
+
+  <rect x="135" y="750" width="12" height="12" rx="2" fill="#e6eaf8" stroke="#5060b0" stroke-width="0.8"/>
+  <text x="153" y="761" font-size="10" fill="#555">Concetti fondanti</text>
+
+  <rect x="270" y="750" width="12" height="12" rx="2" fill="#dde3f8" stroke="#4050a0" stroke-width="0.8"/>
+  <text x="288" y="761" font-size="10" fill="#555">Dialettica</text>
+
+  <rect x="365" y="750" width="12" height="12" rx="2" fill="#ede8f8" stroke="#7060c0" stroke-width="0.8"/>
+  <text x="383" y="761" font-size="10" fill="#555">Attività umana</text>
+
+  <rect x="478" y="750" width="12" height="12" rx="2" fill="#d8f2e6" stroke="#209060" stroke-width="0.8"/>
+  <text x="496" y="761" font-size="10" fill="#555">Morale e libertà</text>
+
+  <rect x="594" y="750" width="12" height="12" rx="2" fill="#faebc8" stroke="#c08020" stroke-width="0.8"/>
+  <text x="612" y="761" font-size="10" fill="#555">Filosofia politica</text>
+
+  <rect x="716" y="750" width="12" height="12" rx="2" fill="#fce8e8" stroke="#b03030" stroke-width="0.8"/>
+  <text x="734" y="761" font-size="10" fill="#555">Tarda filosofia</text>
+
+  <line x1="826" y1="756" x2="848" y2="756" stroke="#999" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="854" y="761" font-size="10" fill="#555">Connessione critica</text>
+
+  <line x1="960" y1="756" x2="982" y2="756" stroke="#555" stroke-width="1"
+        marker-end="url(#arrow)"/>
+  <text x="988" y="761" font-size="10" fill="#555">Derivazione</text>
+
+</svg>

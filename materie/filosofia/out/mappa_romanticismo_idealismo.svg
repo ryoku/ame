@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1122 794" width="1122" height="794"
+     style="font-family: Georgia, 'Times New Roman', serif; background: #ffffff;">
+
+  <title>Mappa concettuale: Romanticismo e Idealismo filosofico</title>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="#555" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arrow-dashed" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="#888" stroke-width="1.5"
+            stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- ══════════════════════════════════════════════════════
+       LAYOUT PLAN (A4 landscape 1122x794, margin 30px)
+       Usable area: x=30..1092, y=30..764
+
+       ROW 1 y=30..90   → Titolo/intestazione
+       ROW 2 y=100..160 → Nodo centrale ROMANTICISMO (centrato x=411..711, w=300)
+       ROW 3 y=180..240 → 3 radici storiche: Sturm (x=80..290), Jena (x=411..621), Europa (x=742..952)
+       ROW 4 y=260..310 → Label "Sei temi fondamentali"
+       ROW 5 y=320..390 → 6 temi in 2 righe x 3:
+                           Riga A y=320..380: Storicismo(x=50..230), Nazionalismo(x=250..430), Natura(x=450..630)
+                           Riga B y=400..460: Titanismo(x=50..230), Arte(x=250..430), Idealismo fil.(x=450..630)
+       ROW 6 y=480..540 → Nodo IDEALISMO FILOSOFICO centrale (x=350..770, w=420)
+                           + box Kant (x=800..1050)
+       ROW 7 y=560..630 → 3 filosofi: Fichte(x=80..310), Schelling(x=406..636), Hegel(x=732..962)
+       ROW 8 y=650..720 → Sintesi finale (x=150..970, w=820)
+       ROW 9 y=740..770 → Legenda
+  ══════════════════════════════════════════════════════ -->
+
+  <!-- ── SFONDO SEZIONI ── -->
+  <!-- Sezione temi (sfondo grigio chiarissimo) -->
+  <rect x="30" y="300" width="660" height="175" rx="12"
+        fill="#f7f7f5" stroke="#ddd" stroke-width="0.5"/>
+  <!-- Sezione idealismo (sfondo crema) -->
+  <rect x="30" y="490" width="1062" height="170" rx="12"
+        fill="#fdf6ee" stroke="#e8d5b0" stroke-width="0.5"/>
+
+  <!-- ══ TITOLO ══ -->
+  <text x="561" y="26" text-anchor="middle"
+        font-size="11" fill="#999" font-style="italic">
+    Romanticismo e Idealismo filosofico
+  </text>
+
+  <!-- ══ NODO CENTRALE: ROMANTICISMO ══ -->
+  <!-- box: x=411 y=40 w=300 h=56 → centro x=561 y=68 -->
+  <rect x="411" y="40" width="300" height="56" rx="10"
+        fill="#4a3a8a" stroke="#2e2460" stroke-width="1"/>
+  <text x="561" y="63" text-anchor="middle"
+        font-size="16" font-weight="bold" fill="#ffffff">Romanticismo</text>
+  <text x="561" y="82" text-anchor="middle"
+        font-size="11" fill="#c8c0f0">Movimento culturale europeo, XIX sec.</text>
+
+  <!-- ══ RADICI (ROW 3) y=120..170 ══ -->
+
+  <!-- Frecce dal nodo centrale alle radici -->
+  <!-- a Sturm: da (490,96) a (195,120) — percorso L per non tagliare -->
+  <path d="M490 96 L490 108 L195 108 L195 120"
+        fill="none" stroke="#888" stroke-width="1" stroke-dasharray="5,3"
+        marker-end="url(#arrow-dashed)"/>
+  <!-- a Jena: verticale da (561,96) a (561,120) -->
+  <line x1="561" y1="96" x2="561" y2="120"
+        stroke="#888" stroke-width="1" stroke-dasharray="5,3"
+        marker-end="url(#arrow-dashed)"/>
+  <!-- a Europa: da (632,96) a (852,120) -->
+  <path d="M632 96 L632 108 L852 108 L852 120"
+        fill="none" stroke="#888" stroke-width="1" stroke-dasharray="5,3"
+        marker-end="url(#arrow-dashed)"/>
+
+  <!-- Sturm und Drang: x=80 y=120 w=230 h=50 -->
+  <rect x="80" y="120" width="230" height="50" rx="8"
+        fill="#e8e6f0" stroke="#7060b0" stroke-width="0.8"/>
+  <text x="195" y="141" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#3a2d7a">Sturm und Drang</text>
+  <text x="195" y="158" text-anchor="middle"
+        font-size="10" fill="#5a4a9a">Radici tedesche, forza vitale</text>
+
+  <!-- Gruppo di Jena: x=446 y=120 w=230 h=50 -->
+  <rect x="446" y="120" width="230" height="50" rx="8"
+        fill="#e8e6f0" stroke="#7060b0" stroke-width="0.8"/>
+  <text x="561" y="141" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#3a2d7a">Gruppo di Jena</text>
+  <text x="561" y="158" text-anchor="middle"
+        font-size="10" fill="#5a4a9a">Rivista Athenaeum, 1797</text>
+
+  <!-- Diffusione europea: x=737 y=120 w=230 h=50 -->
+  <rect x="737" y="120" width="230" height="50" rx="8"
+        fill="#e8e6f0" stroke="#7060b0" stroke-width="0.8"/>
+  <text x="852" y="141" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#3a2d7a">Diffusione europea</text>
+  <text x="852" y="158" text-anchor="middle"
+        font-size="10" fill="#5a4a9a">Forme diverse per paese</text>
+
+  <!-- ══ LABEL SEZIONE TEMI ══ -->
+  <text x="355" y="298" text-anchor="middle"
+        font-size="11" fill="#888" font-style="italic">Sei temi fondamentali</text>
+  <line x1="50" y1="302" x2="235" y2="302" stroke="#ccc" stroke-width="0.5"/>
+  <line x1="472" y1="302" x2="660" y2="302" stroke="#ccc" stroke-width="0.5"/>
+
+  <!-- Frecce dal nodo centrale verso area temi (una sola freccia generica) -->
+  <path d="M450 96 L200 310" fill="none" stroke="#aaa" stroke-width="0.8"
+        stroke-dasharray="4,3" marker-end="url(#arrow-dashed)"/>
+  <path d="M540 96 L355 310" fill="none" stroke="#aaa" stroke-width="0.8"
+        stroke-dasharray="4,3" marker-end="url(#arrow-dashed)"/>
+  <path d="M580 96 L510 310" fill="none" stroke="#aaa" stroke-width="0.8"
+        stroke-dasharray="4,3" marker-end="url(#arrow-dashed)"/>
+
+  <!-- ══ TEMI — RIGA A y=312..362 ══ -->
+  <!-- Storicismo: x=50 y=312 w=180 h=50 -->
+  <rect x="50" y="312" width="180" height="50" rx="8"
+        fill="#daf2eb" stroke="#2a9d6a" stroke-width="0.8"/>
+  <text x="140" y="333" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#0a5c3a">Storicismo</text>
+  <text x="140" y="350" text-anchor="middle"
+        font-size="10" fill="#1a7a50">Medioevo, nazioni</text>
+
+  <!-- Nazionalismo: x=245 y=312 w=180 h=50 -->
+  <rect x="245" y="312" width="180" height="50" rx="8"
+        fill="#daf2eb" stroke="#2a9d6a" stroke-width="0.8"/>
+  <text x="335" y="333" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#0a5c3a">Nazionalismo</text>
+  <text x="335" y="350" text-anchor="middle"
+        font-size="10" fill="#1a7a50">Identità dei popoli</text>
+
+  <!-- Natura divina: x=440 y=312 w=180 h=50 -->
+  <rect x="440" y="312" width="180" height="50" rx="8"
+        fill="#daf2eb" stroke="#2a9d6a" stroke-width="0.8"/>
+  <text x="530" y="333" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#0a5c3a">Natura divina</text>
+  <text x="530" y="350" text-anchor="middle"
+        font-size="10" fill="#1a7a50">Panteismo, spirito</text>
+
+  <!-- ══ TEMI — RIGA B y=372..422 ══ -->
+  <!-- Titanismo: x=50 y=372 w=180 h=50 -->
+  <rect x="50" y="372" width="180" height="50" rx="8"
+        fill="#daf2eb" stroke="#2a9d6a" stroke-width="0.8"/>
+  <text x="140" y="393" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#0a5c3a">Titanismo</text>
+  <text x="140" y="410" text-anchor="middle"
+        font-size="10" fill="#1a7a50">Ribellione, ideali</text>
+
+  <!-- Arte: x=245 y=372 w=180 h=50 -->
+  <rect x="245" y="372" width="180" height="50" rx="8"
+        fill="#daf2eb" stroke="#2a9d6a" stroke-width="0.8"/>
+  <text x="335" y="393" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#0a5c3a">Esaltazione dell'arte</text>
+  <text x="335" y="410" text-anchor="middle"
+        font-size="10" fill="#1a7a50">Poesia, musica, pittura</text>
+
+  <!-- Idealismo fil.: x=440 y=372 w=180 h=50 -->
+  <rect x="440" y="372" width="180" height="50" rx="8"
+        fill="#c6eadf" stroke="#1a7a50" stroke-width="1.2"/>
+  <text x="530" y="393" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#0a4a30">Idealismo fil.</text>
+  <text x="530" y="410" text-anchor="middle"
+        font-size="10" fill="#0a5c3a">Io, soggetto attivo</text>
+
+  <!-- ══ FRECCIA TEMA IDEALISMO → NODO IDEALISMO ══ -->
+  <path d="M530 422 L530 448 L560 448 L560 490"
+        fill="none" stroke="#555" stroke-width="1.2"
+        marker-end="url(#arrow)"/>
+
+  <!-- ══ SEZIONE IDEALISMO FILOSOFICO ══ -->
+
+  <!-- Nodo principale idealismo: x=310 y=490 w=440 h=56 -->
+  <rect x="310" y="490" width="440" height="56" rx="10"
+        fill="#c2440a" stroke="#8a2a04" stroke-width="1"/>
+  <text x="530" y="513" text-anchor="middle"
+        font-size="15" font-weight="bold" fill="#ffffff">Idealismo filosofico</text>
+  <text x="530" y="533" text-anchor="middle"
+        font-size="11" fill="#ffd0b8">Principio interiore infinito: coscienza, spirito</text>
+
+  <!-- Box Kant/noumeno: x=780 y=490 w=280 h=56 -->
+  <rect x="780" y="490" width="280" height="56" rx="8"
+        fill="#faeeda" stroke="#c07010" stroke-width="0.8"/>
+  <text x="920" y="511" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#6a3800">Superamento di Kant</text>
+  <text x="920" y="528" text-anchor="middle"
+        font-size="10" fill="#8a4a00">Noumeno → fenomeno dell'Io</text>
+
+  <!-- Freccia idealismo → Kant -->
+  <line x1="750" y1="518" x2="778" y2="518"
+        stroke="#888" stroke-width="1"
+        marker-end="url(#arrow-dashed)"/>
+
+  <!-- Label "Tre forme" -->
+  <text x="530" y="575" text-anchor="middle"
+        font-size="11" fill="#888" font-style="italic">Tre forme (classificazione hegeliana)</text>
+  <line x1="200" y1="579" x2="385" y2="579" stroke="#ccc" stroke-width="0.5"/>
+  <line x1="675" y1="579" x2="860" y2="579" stroke="#ccc" stroke-width="0.5"/>
+
+  <!-- Frecce idealismo → tre filosofi -->
+  <path d="M400 546 L400 558 L215 558 L215 590"
+        fill="none" stroke="#555" stroke-width="1"
+        marker-end="url(#arrow)"/>
+  <line x1="530" y1="546" x2="530" y2="590"
+        stroke="#555" stroke-width="1"
+        marker-end="url(#arrow)"/>
+  <path d="M660 546 L660 558 L845 558 L845 590"
+        fill="none" stroke="#555" stroke-width="1"
+        marker-end="url(#arrow)"/>
+
+  <!-- ══ TRE FILOSOFI y=590..660 ══ -->
+
+  <!-- Fichte: x=80 y=590 w=270 h=70 -->
+  <rect x="80" y="590" width="270" height="70" rx="8"
+        fill="#ddeeff" stroke="#1a60a0" stroke-width="0.8"/>
+  <text x="215" y="612" text-anchor="middle"
+        font-size="14" font-weight="bold" fill="#0a3060">Fichte</text>
+  <text x="215" y="630" text-anchor="middle"
+        font-size="11" fill="#1a4a80">Idealismo soggettivo</text>
+  <text x="215" y="648" text-anchor="middle"
+        font-size="10" fill="#2a5a90">Io puro vs Non-Io (natura)</text>
+
+  <!-- Schelling: x=395 y=590 w=270 h=70 -->
+  <rect x="395" y="590" width="270" height="70" rx="8"
+        fill="#ddeeff" stroke="#1a60a0" stroke-width="0.8"/>
+  <text x="530" y="612" text-anchor="middle"
+        font-size="14" font-weight="bold" fill="#0a3060">Schelling</text>
+  <text x="530" y="630" text-anchor="middle"
+        font-size="11" fill="#1a4a80">Idealismo oggettivo</text>
+  <text x="530" y="648" text-anchor="middle"
+        font-size="10" fill="#2a5a90">Assoluto: sintesi di Io e natura</text>
+
+  <!-- Hegel: x=710 y=590 w=270 h=70 -->
+  <rect x="710" y="590" width="270" height="70" rx="8"
+        fill="#ddeeff" stroke="#1a60a0" stroke-width="0.8"/>
+  <text x="845" y="612" text-anchor="middle"
+        font-size="14" font-weight="bold" fill="#0a3060">Hegel</text>
+  <text x="845" y="630" text-anchor="middle"
+        font-size="11" fill="#1a4a80">Idealismo assoluto</text>
+  <text x="845" y="648" text-anchor="middle"
+        font-size="10" fill="#2a5a90">Ragione / Spirito come unità</text>
+
+  <!-- ══ FRECCE DAI FILOSOFI ALLA SINTESI ══ -->
+  <path d="M215 660 L215 678 L561 678 L561 700"
+        fill="none" stroke="#555" stroke-width="1"
+        marker-end="url(#arrow)"/>
+  <line x1="530" y1="660" x2="530" y2="700"
+        stroke="#555" stroke-width="1"
+        marker-end="url(#arrow)"/>
+  <path d="M845 660 L845 678 L561 678"
+        fill="none" stroke="#555" stroke-width="1"/>
+
+  <!-- ══ SINTESI FINALE y=700..755 ══ -->
+  <rect x="120" y="700" width="882" height="58" rx="10"
+        fill="#4a3a8a" stroke="#2e2460" stroke-width="1"/>
+  <text x="561" y="723" text-anchor="middle"
+        font-size="14" font-weight="bold" fill="#ffffff">Svolta comune: il soggetto umano al centro</text>
+  <text x="561" y="743" text-anchor="middle"
+        font-size="11" fill="#c8c0f0">Coscienza, storia, arte e natura sono processi vivi e intrecciati — non realtà fisse esterne</text>
+
+  <!-- ══ LEGENDA ══ -->
+  <rect x="30" y="768" width="12" height="12" rx="2" fill="#4a3a8a"/>
+  <text x="48" y="779" font-size="10" fill="#555">Concetto principale</text>
+
+  <rect x="175" y="768" width="12" height="12" rx="2" fill="#e8e6f0" stroke="#7060b0" stroke-width="0.8"/>
+  <text x="193" y="779" font-size="10" fill="#555">Radici storiche</text>
+
+  <rect x="300" y="768" width="12" height="12" rx="2" fill="#daf2eb" stroke="#2a9d6a" stroke-width="0.8"/>
+  <text x="318" y="779" font-size="10" fill="#555">Temi romantici</text>
+
+  <rect x="420" y="768" width="12" height="12" rx="2" fill="#c2440a"/>
+  <text x="438" y="779" font-size="10" fill="#555">Idealismo generale</text>
+
+  <rect x="555" y="768" width="12" height="12" rx="2" fill="#ddeeff" stroke="#1a60a0" stroke-width="0.8"/>
+  <text x="573" y="779" font-size="10" fill="#555">Filosofi idealisti</text>
+
+  <line x1="660" y1="774" x2="680" y2="774" stroke="#888" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="686" y="779" font-size="10" fill="#555">Derivazione</text>
+
+  <line x1="760" y1="774" x2="780" y2="774" stroke="#555" stroke-width="1"
+        marker-end="url(#arrow)"/>
+  <text x="786" y="779" font-size="10" fill="#555">Connessione diretta</text>
+
+</svg>
