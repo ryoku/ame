@@ -1,0 +1,93 @@
+digraph romanticismo {
+    graph [
+        rankdir=TB
+        fontname="Helvetica"
+        fontsize=13
+        bgcolor="#FAFAFA"
+        pad=0.5
+        splines=curved
+        nodesep=0.45
+        ranksep=0.9
+    ]
+    node [
+        fontname="Helvetica"
+        fontsize=11
+        style="filled,rounded"
+        shape=box
+        margin="0.22,0.10"
+    ]
+    edge [
+        fontname="Helvetica"
+        fontsize=9
+        color="#555555"
+        arrowsize=0.65
+    ]
+
+    ROOT [label="ROMANTICISMO E IDEALISMO"
+          shape=ellipse fontsize=14 fontcolor=white
+          fillcolor="#2C3E50" color="#1A252F"]
+
+    DEF   [label="Definizione e contesto" fillcolor="#2980B9" fontcolor=white color="#1F618D"]
+    ORIG  [label="Origini e diffusione" fillcolor="#8E44AD" fontcolor=white color="#6C3483"]
+    TEMI  [label="6 temi del Romanticismo" fillcolor="#16A085" fontcolor=white color="#0E6655"]
+    ATTE  [label="Atteggiamento dell'intellettuale" fillcolor="#D35400" fontcolor=white color="#A04000"]
+    IDEA  [label="Idealismo filosofico" fillcolor="#C0392B" fontcolor=white color="#922B21"]
+    KANT  [label="Superamento del noumeno" fillcolor="#1ABC9C" fontcolor=white color="#148F77"]
+    HEGEL [label="Forme dell'idealismo tedesco" fillcolor="#7D3C98" fontcolor=white color="#5B2C6F"]
+    CONC  [label="Conclusione" fillcolor="#2E4057" fontcolor=white color="#1A252F"]
+
+    ROOT -> DEF
+    ROOT -> ORIG
+    ROOT -> TEMI
+    ROOT -> ATTE
+    ROOT -> IDEA
+    ROOT -> KANT
+    ROOT -> HEGEL
+    ROOT -> CONC
+
+    D1 [label="Movimento culturale, letterario,\nfilosofico e artistico\n(Europa, prima meta dell'Ottocento)" fillcolor="#AED6F1" color="#2980B9"]
+    D2 [label="Opposizione a:\nIlluminismo razionalista\ne Neoclassicismo" fillcolor="#AED6F1" color="#2980B9"]
+    D3 [label="Centralita di intuizione,\nsentimento, passione,\nimmaginazione, interiorita" fillcolor="#AED6F1" color="#2980B9"]
+    DEF -> D1; DEF -> D2; DEF -> D3
+
+    O1 [label="Radici nello Sturm und Drang" fillcolor="#D7BDE2" color="#8E44AD"]
+    O2 [label="Gruppo di Jena (1798-1804)\ne rivista Athenaeum (1797)" fillcolor="#D7BDE2" color="#8E44AD"]
+    O3 [label="Autori: Novalis, Schlegel,\nFichte, Schelling" fillcolor="#D7BDE2" color="#8E44AD"]
+    O4 [label="Diffusione europea con\ncaratteri nazionali diversi" fillcolor="#D7BDE2" color="#8E44AD"]
+    ORIG -> O1; ORIG -> O2; ORIG -> O3; ORIG -> O4
+
+    T1 [label="1) Storicismo:\nstoria come divenire creativo\ne rivalutazione del Medioevo" fillcolor="#A9DFBF" color="#16A085"]
+    T2 [label="2) Nazionalismo:\nidentita storica e culturale\ndella nazione" fillcolor="#A9DFBF" color="#16A085"]
+    T3 [label="3) Divinizzazione della natura:\npanteismo naturalistico" fillcolor="#A9DFBF" color="#16A085"]
+    T4 [label="4) Esaltazione dell'arte:\narmonia tra spirito e natura" fillcolor="#A9DFBF" color="#16A085"]
+    T5 [label="5) Titanismo/Prometeismo:\nribellione e lotta per ideali" fillcolor="#A9DFBF" color="#16A085"]
+    T6 [label="6) Idealismo filosofico:\nl'io partecipa alla\ncostruzione del reale" fillcolor="#A9DFBF" color="#16A085"]
+    TEMI -> T1; TEMI -> T2; TEMI -> T3; TEMI -> T4; TEMI -> T5; TEMI -> T6
+
+    A1 [label="Distacco critico dalla realta" fillcolor="#FAD7A0" color="#D35400"]
+    A2 [label="La realta e vista come\nmodificabile dall'azione\nspirituale e creativa dell'io" fillcolor="#FAD7A0" color="#D35400"]
+    ATTE -> A1; ATTE -> A2
+
+    I1 [label="La conoscenza deriva da un\nprincipio interiore infinito\n(coscienza/pensiero/spirito)" fillcolor="#F1948A" color="#C0392B"]
+    I2 [label="La realta visibile manifesta\nun principio invisibile" fillcolor="#F1948A" color="#C0392B"]
+    I3 [label="Principio non religioso,\nma con caratteri panteistici" fillcolor="#F1948A" color="#C0392B"]
+    IDEA -> I1; IDEA -> I2; IDEA -> I3
+
+    K1 [label="Noumeno: pensabile ma\ninconoscibile" fillcolor="#A2D9CE" color="#1ABC9C"]
+    K2 [label="Fenomeno: unico terreno\ncerto della conoscenza" fillcolor="#A2D9CE" color="#1ABC9C"]
+    K3 [label="Il fenomeno e rappresentazione\nprodotta dall'io pensante" fillcolor="#A2D9CE" color="#1ABC9C"]
+    K4 [label="Conoscenza vera: esperienza\n+ attivita del soggetto" fillcolor="#A2D9CE" color="#1ABC9C"]
+    KANT -> K1; KANT -> K2; KANT -> K3; KANT -> K4
+
+    H1 [label="Fichte: idealismo soggettivo\n(Io puro vs Non-Io)" fillcolor="#D2B4DE" color="#7D3C98"]
+    H2 [label="Schelling: idealismo oggettivo\n(Assoluto = sintesi Io/Natura)" fillcolor="#D2B4DE" color="#7D3C98"]
+    H3 [label="Hegel: idealismo assoluto\n(Ragione o Spirito)" fillcolor="#D2B4DE" color="#7D3C98"]
+    HEGEL -> H1; HEGEL -> H2; HEGEL -> H3
+
+    C1 [label="Svolta comune: centralita\ndel soggetto umano" fillcolor="#AEB6BF" color="#2E4057"]
+    C2 [label="Realtà come processo vivo:\ncoscienza, storia, arte, natura\nprofondamente intrecciate" fillcolor="#AEB6BF" color="#2E4057"]
+    CONC -> C1; CONC -> C2
+
+    T6 -> IDEA [style=dashed color="#888888" label="approfondito in" constraint=false]
+    K2 -> HEGEL [style=dashed color="#888888" label="sviluppo sistematico" constraint=false]
+}
