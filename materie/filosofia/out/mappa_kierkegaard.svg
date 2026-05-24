@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1122 794" width="1122" height="794"
+     style="font-family: Georgia, 'Times New Roman', serif; background: #ffffff;">
+
+  <title>Mappa concettuale: Søren Kierkegaard — il primato del singolo contro l'idealismo</title>
+
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="#555"
+            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arr-d" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="#aaa"
+            stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- ══ NODO CENTRALE ══ -->
+  <rect x="241" y="28" width="640" height="54" rx="12"
+        fill="#3a2010" stroke="#1a0a00" stroke-width="1"/>
+  <text x="561" y="51" text-anchor="middle"
+        font-size="17" font-weight="bold" fill="#ffffff">Søren Kierkegaard (1813–1855)</text>
+  <text x="561" y="72" text-anchor="middle"
+        font-size="11" fill="#e0b880">Primato del singolo — critica all'idealismo hegeliano — precursore dell'esistenzialismo</text>
+
+  <!-- ══ ROW 2: CONTESTO + SVOLTA FONDAMENTALE ══ y=100..178 -->
+
+  <path d="M390 82 L390 94 L185 94 L185 100"
+        fill="none" stroke="#aaa" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arr-d)"/>
+  <line x1="680" y1="82" x2="680" y2="100"
+        stroke="#7a4010" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- Vita e contesto: x=50 y=100 w=270 h=78 -->
+  <rect x="50" y="100" width="270" height="78" rx="9"
+        fill="#f5ede0" stroke="#a07030" stroke-width="0.8"/>
+  <text x="185" y="121" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#4a2000">Vita e contesto</text>
+  <line x1="68" y1="130" x2="302" y2="130" stroke="#c09050" stroke-width="0.5"/>
+  <text x="185" y="146" text-anchor="middle" font-size="10" fill="#6a3000">Educazione religiosa severa, lutti familiari</text>
+  <text x="185" y="161" text-anchor="middle" font-size="10" fill="#6a3000">Rottura con Regina Olsen</text>
+  <text x="185" y="171" text-anchor="middle" font-size="10" fill="#6a3000">Polemica contro la Chiesa luterana danese</text>
+
+  <!-- Svolta vs Hegel: x=340 y=100 w=732 h=78 -->
+  <rect x="340" y="100" width="732" height="78" rx="9"
+        fill="#3a2010" stroke="#1a0a00" stroke-width="0.8"/>
+  <text x="706" y="121" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#ffffff">Rovesciamento di Hegel</text>
+  <line x1="358" y1="130" x2="1054" y2="130" stroke="#705030" stroke-width="0.5"/>
+  <text x="706" y="146" text-anchor="middle" font-size="10" fill="#e8c890">Accetta la dialettica come dinamica dell'esistenza</text>
+  <text x="706" y="161" text-anchor="middle" font-size="10" fill="#e8c890">Rifiuta: il processo universale e impersonale dello Spirito</text>
+  <text x="706" y="173" text-anchor="middle" font-size="10" font-style="italic" fill="#f0d8a0">Al centro non il sistema astratto, ma l'individuo concreto con i suoi conflitti e le sue scelte</text>
+
+  <!-- ══ ROW 3: ESSENZA/ESISTENZA + ANGOSCIA ══ y=198..268 -->
+
+  <line x1="561" y1="178" x2="561" y2="198"
+        stroke="#7a4010" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- sfondo banda -->
+  <rect x="30" y="195" width="1062" height="78" rx="9"
+        fill="#fdf5e8" stroke="#c09040" stroke-width="0.5"/>
+
+  <!-- Essenza vs Esistenza: x=42 y=208 w=490 h=56 -->
+  <rect x="42" y="208" width="490" height="56" rx="8"
+        fill="#f0ddb8" stroke="#a07020" stroke-width="0.8"/>
+  <text x="287" y="228" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#3a1a00">Essenza vs Esistenza — l'Aut-Aut</text>
+  <line x1="60" y1="236" x2="514" y2="236" stroke="#c09040" stroke-width="0.5"/>
+  <text x="287" y="251" text-anchor="middle" font-size="10" fill="#5a2a00">Essenza = uomo in astratto  |  Esistenza = singolo nella vita concreta</text>
+  <text x="287" y="260" text-anchor="middle" font-size="10" font-style="italic" fill="#7a4000">Esistere = «stare fuori» dall'universale — esporsi al rischio della libertà</text>
+
+  <!-- Angoscia: x=548 y=208 w=530 h=56 -->
+  <rect x="548" y="208" width="530" height="56" rx="8"
+        fill="#f0ddb8" stroke="#a07020" stroke-width="0.8"/>
+  <text x="813" y="228" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#3a1a00">L'angoscia e il salto</text>
+  <line x1="566" y1="236" x2="1060" y2="236" stroke="#c09040" stroke-width="0.5"/>
+  <text x="813" y="251" text-anchor="middle" font-size="10" fill="#5a2a00">Libertà = possibilità diverse e incompatibili → tensione continua</text>
+  <text x="813" y="260" text-anchor="middle" font-size="10" font-style="italic" fill="#7a4000">Il passaggio tra stadi non è graduale (vs Hegel): avviene per salto, crisi, disperazione</text>
+
+  <!-- ══ ROW 4: TRE STADI ══ y=292..430 -->
+
+  <!-- Frecce → tre stadi -->
+  <path d="M287 264 L287 280 L220 280 L220 292"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <path d="M561 264 L561 280 L561 292"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <path d="M813 264 L813 280 L900 280 L900 292"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+
+  <!-- Label -->
+  <text x="561" y="289" text-anchor="middle"
+        font-size="10" fill="#806040" font-style="italic">I tre stadi dell'esistenza</text>
+
+  <!-- STADIO ESTETICO: x=42 y=295 w=320 h=130 -->
+  <rect x="42" y="295" width="320" height="130" rx="9"
+        fill="#e8e0f8" stroke="#6050a0" stroke-width="0.8"/>
+  <text x="202" y="317" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#1a0860">① Stadio estetico</text>
+  <text x="202" y="333" text-anchor="middle"
+        font-size="10" fill="#3a2080">Figura: Don Giovanni</text>
+  <line x1="60" y1="340" x2="344" y2="340" stroke="#9080c0" stroke-width="0.5"/>
+  <text x="202" y="356" text-anchor="middle" font-size="10" fill="#3a2080">Ricerca del piacere immediato e della novità</text>
+  <text x="202" y="371" text-anchor="middle" font-size="10" fill="#3a2080">Vita nell'attimo, senza legami stabili</text>
+  <text x="202" y="386" text-anchor="middle" font-size="10" fill="#3a2080">Apparentemente libero, ma manca</text>
+  <text x="202" y="401" text-anchor="middle" font-size="10" fill="#3a2080">un centro interiore duraturo</text>
+  <text x="202" y="416" text-anchor="middle" font-size="10" font-style="italic" fill="#5040a0">Esito: noia e disperazione</text>
+
+  <!-- STADIO ETICO: x=401 y=295 w=320 h=130 -->
+  <rect x="401" y="295" width="320" height="130" rx="9"
+        fill="#e8e0f8" stroke="#6050a0" stroke-width="0.8"/>
+  <text x="561" y="317" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#1a0860">② Stadio etico</text>
+  <text x="561" y="333" text-anchor="middle"
+        font-size="10" fill="#3a2080">Figura: il buon marito e padre</text>
+  <line x1="419" y1="340" x2="703" y2="340" stroke="#9080c0" stroke-width="0.5"/>
+  <text x="561" y="356" text-anchor="middle" font-size="10" fill="#3a2080">Dovere, scelta responsabile, fedeltà</text>
+  <text x="561" y="371" text-anchor="middle" font-size="10" fill="#3a2080">Stabilità sociale e continuità</text>
+  <text x="561" y="386" text-anchor="middle" font-size="10" fill="#3a2080">Progresso rispetto all'estetico:</text>
+  <text x="561" y="401" text-anchor="middle" font-size="10" fill="#3a2080">l'individuo si assume impegni</text>
+  <text x="561" y="416" text-anchor="middle" font-size="10" font-style="italic" fill="#5040a0">Limite: può scivolare nel conformismo</text>
+
+  <!-- STADIO RELIGIOSO: x=760 y=295 w=320 h=130 -->
+  <rect x="760" y="295" width="320" height="130" rx="9"
+        fill="#d0c8f0" stroke="#4030a0" stroke-width="1"/>
+  <text x="920" y="317" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#0a0050">③ Stadio religioso</text>
+  <text x="920" y="333" text-anchor="middle"
+        font-size="10" fill="#2a1880">Figura: Abramo (Timore e tremore)</text>
+  <line x1="778" y1="340" x2="1062" y2="340" stroke="#7060c0" stroke-width="0.5"/>
+  <text x="920" y="356" text-anchor="middle" font-size="10" fill="#2a1880">Fede come rischio, solitudine, scandalo</text>
+  <text x="920" y="371" text-anchor="middle" font-size="10" fill="#2a1880">Rapporto assoluto tra il singolo e l'Assoluto</text>
+  <text x="920" y="386" text-anchor="middle" font-size="10" fill="#2a1880">Il comando di Dio supera ragione e morale comune</text>
+  <text x="920" y="401" text-anchor="middle" font-size="10" fill="#2a1880">La preghiera: trasformarsi per ascoltare</text>
+  <text x="920" y="416" text-anchor="middle" font-size="10" font-style="italic" fill="#4030a0">Non elimina l'angoscia: la attraversa radicalmente</text>
+
+  <!-- Frecce tra stadi (salto) -->
+  <path d="M362 360 L399 360" fill="none" stroke="#6050a0" stroke-width="1"
+        stroke-dasharray="5,3" marker-end="url(#arr)"/>
+  <text x="381" y="354" text-anchor="middle" font-size="8" fill="#7060b0" font-style="italic">salto</text>
+  <path d="M721 360 L758 360" fill="none" stroke="#6050a0" stroke-width="1"
+        stroke-dasharray="5,3" marker-end="url(#arr)"/>
+  <text x="740" y="354" text-anchor="middle" font-size="8" fill="#7060b0" font-style="italic">salto</text>
+
+  <!-- ══ ROW 5: EREDITÀ + FEDE ══ y=450..535 -->
+
+  <!-- Frecce row4 → row5 -->
+  <path d="M202 425 L202 442 L230 442 L230 452"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <path d="M920 425 L920 442 L840 442 L840 452"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+
+  <!-- Concezione della fede: x=50 y=452 w=460 h=80 -->
+  <rect x="50" y="452" width="460" height="80" rx="9"
+        fill="#f0eaff" stroke="#7060b0" stroke-width="0.8"/>
+  <text x="280" y="474" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#1a0860">La fede — non certezza, ma rischio personale</text>
+  <line x1="68" y1="483" x2="492" y2="483" stroke="#a090d0" stroke-width="0.5"/>
+  <text x="280" y="499" text-anchor="middle" font-size="10" fill="#3a2080">Non appartenenza esterna a una religione istituzionale</text>
+  <text x="280" y="514" text-anchor="middle" font-size="10" fill="#3a2080">Esperienza personale profonda: pregare = trasformarsi per ascoltare Dio</text>
+  <text x="280" y="525" text-anchor="middle" font-size="10" font-style="italic" fill="#5040a0">Paradosso della fede: incomprensibile alla ragione, eppure decisiva</text>
+
+  <!-- Eredità — esistenzialismo: x=530 y=452 w=542 h=80 -->
+  <rect x="530" y="452" width="542" height="80" rx="9"
+        fill="#f5ede0" stroke="#a07030" stroke-width="0.8" stroke-dasharray="6,3"/>
+  <text x="801" y="474" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#3a1a00">Eredità — precursore dell'esistenzialismo</text>
+  <line x1="548" y1="483" x2="1054" y2="483" stroke="#c09050" stroke-width="0.5"/>
+  <text x="801" y="499" text-anchor="middle" font-size="10" fill="#5a2a00">Temi fondamentali nel Novecento:</text>
+  <text x="801" y="514" text-anchor="middle" font-size="10" fill="#5a2a00">angoscia del possibile, precarietà della condizione umana</text>
+  <text x="801" y="525" text-anchor="middle" font-size="10" fill="#5a2a00">necessità di decidere chi si vuole essere</text>
+
+  <!-- ══ SINTESI FINALE ══ y=554..608 -->
+
+  <path d="M280 532 L280 546 L561 546 L561 554"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <path d="M801 532 L801 546 L561 546"
+        fill="none" stroke="#555" stroke-width="1"/>
+
+  <rect x="80" y="554" width="962" height="55" rx="10"
+        fill="#3a2010" stroke="#1a0a00" stroke-width="1"/>
+  <text x="561" y="577" text-anchor="middle"
+        font-size="14" font-weight="bold" fill="#ffffff">Sintesi: al centro non il sistema, ma il singolo — libero, angosciato, chiamato a scegliere</text>
+  <text x="561" y="597" text-anchor="middle"
+        font-size="11" fill="#e0b880">La filosofia non spiega tutto: deve restituire all'individuo la sua irripetibilità e la sua responsabilità davanti a Dio</text>
+
+  <!-- ══ LEGENDA ══ -->
+  <rect x="80" y="634" width="12" height="12" rx="2" fill="#3a2010"/>
+  <text x="98" y="645" font-size="10" fill="#555">Nodo centrale / Sintesi</text>
+
+  <rect x="235" y="634" width="12" height="12" rx="2" fill="#f5ede0" stroke="#a07030" stroke-width="0.8"/>
+  <text x="253" y="645" font-size="10" fill="#555">Contesto / Eredità</text>
+
+  <rect x="360" y="634" width="12" height="12" rx="2" fill="#f0ddb8" stroke="#a07020" stroke-width="0.8"/>
+  <text x="378" y="645" font-size="10" fill="#555">Concetti fondamentali</text>
+
+  <rect x="492" y="634" width="12" height="12" rx="2" fill="#e8e0f8" stroke="#6050a0" stroke-width="0.8"/>
+  <text x="510" y="645" font-size="10" fill="#555">Stadi (estetico / etico)</text>
+
+  <rect x="640" y="634" width="12" height="12" rx="2" fill="#d0c8f0" stroke="#4030a0" stroke-width="1"/>
+  <text x="658" y="645" font-size="10" fill="#555">Stadio religioso (supremo)</text>
+
+  <rect x="808" y="634" width="12" height="12" rx="2" fill="#f0eaff" stroke="#7060b0" stroke-width="0.8"/>
+  <text x="826" y="645" font-size="10" fill="#555">Fede</text>
+
+  <line x1="880" y1="640" x2="900" y2="640" stroke="#6050a0" stroke-width="1" stroke-dasharray="4,2" marker-end="url(#arr-d)"/>
+  <text x="906" y="645" font-size="10" fill="#555">Salto tra stadi</text>
+
+  <line x1="1010" y1="640" x2="1030" y2="640" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <text x="1036" y="645" font-size="10" fill="#555">Derivazione</text>
+
+</svg>

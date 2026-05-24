@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1122 794" width="1122" height="794"
+     style="font-family: Georgia, 'Times New Roman', serif; background: #ffffff;">
+
+  <title>Mappa concettuale: Friedrich Nietzsche</title>
+
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="#555"
+            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arr-d" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="#aaa"
+            stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- ══ NODO CENTRALE ══ -->
+  <rect x="221" y="22" width="680" height="54" rx="12"
+        fill="#5a1a00" stroke="#2a0a00" stroke-width="1"/>
+  <text x="561" y="45" text-anchor="middle"
+        font-size="17" font-weight="bold" fill="#ffffff">Friedrich Nietzsche (1844–1900)</text>
+  <text x="561" y="66" text-anchor="middle"
+        font-size="11" fill="#f0c090">Pessimismo affermativo — «Dire sì alla vita» — precursore dell'esistenzialismo</text>
+
+  <!-- ══ ROW 2: RADICI + AVVERTENZA ══ y=88..155 -->
+
+  <path d="M400 76 L400 86 L185 86 L185 88"
+        fill="none" stroke="#aaa" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arr-d)"/>
+  <path d="M780 76 L780 86 L940 86 L940 88"
+        fill="none" stroke="#aaa" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arr-d)"/>
+
+  <!-- Da Schopenhauer: x=50 y=88 w=270 h=67 -->
+  <rect x="50" y="88" width="270" height="67" rx="8"
+        fill="#f5ede0" stroke="#a07030" stroke-width="0.8"/>
+  <text x="185" y="108" text-anchor="middle"
+        font-size="12" font-weight="bold" fill="#4a2000">Da Schopenhauer</text>
+  <line x1="68" y1="116" x2="302" y2="116" stroke="#c09050" stroke-width="0.5"/>
+  <text x="185" y="131" text-anchor="middle" font-size="10" fill="#6a3000">Accetta: vita come dolore senza finalità</text>
+  <text x="185" y="145" text-anchor="middle" font-size="10" fill="#6a3000">Rifiuta: ascetismo e rinuncia — dire sì, non no</text>
+
+  <!-- Avvertenza deformazione: x=800 y=88 w=272 h=67 -->
+  <rect x="800" y="88" width="272" height="67" rx="8"
+        fill="#fce8e8" stroke="#b03030" stroke-width="0.8" stroke-dasharray="5,3"/>
+  <text x="936" y="108" text-anchor="middle"
+        font-size="12" font-weight="bold" fill="#5a0a0a">⚠ Deformazione ideologica</text>
+  <line x1="818" y1="116" x2="1054" y2="116" stroke="#d07070" stroke-width="0.5"/>
+  <text x="936" y="131" text-anchor="middle" font-size="10" fill="#7a1a1a">La sorella falsificò le opere: Nietzsche</text>
+  <text x="936" y="145" text-anchor="middle" font-size="10" fill="#7a1a1a">NON è un teorico del nazismo né antisemita</text>
+
+  <!-- ══ TRE PERIODI — BANDA PRINCIPALE ══ y=170..400 -->
+
+  <!-- Frecce nodo → tre periodi -->
+  <path d="M390 76 L390 158 L200 158 L200 170"
+        fill="none" stroke="#8a3010" stroke-width="1.2" marker-end="url(#arr)"/>
+  <line x1="561" y1="76" x2="561" y2="170"
+        stroke="#8a3010" stroke-width="1.2" marker-end="url(#arr)"/>
+  <path d="M732 76 L732 158 L920 158 L920 170"
+        fill="none" stroke="#8a3010" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <text x="561" y="166" text-anchor="middle"
+        font-size="10" fill="#7a3010" font-style="italic">Tre fasi del pensiero</text>
+
+  <!-- sfondo banda periodi -->
+  <rect x="30" y="170" width="1062" height="228" rx="9"
+        fill="#fdf8f0" stroke="#d0a060" stroke-width="0.5"/>
+
+  <!-- ① PERIODO GIOVANILE: x=42 y=182 w=320 h=207 -->
+  <rect x="42" y="182" width="320" height="207" rx="9"
+        fill="#fce8d0" stroke="#c05010" stroke-width="0.8"/>
+  <text x="202" y="202" text-anchor="middle"
+        font-size="12" font-weight="bold" fill="#5a1000">① Periodo giovanile (1872–76)</text>
+  <text x="202" y="218" text-anchor="middle" font-size="10" fill="#7a2000">«La nascita della tragedia»</text>
+  <line x1="60" y1="225" x2="344" y2="225" stroke="#e08040" stroke-width="0.5"/>
+  <text x="202" y="241" text-anchor="middle" font-size="11" font-weight="bold" fill="#5a1000">Apollineo vs Dionisiaco</text>
+  <text x="202" y="257" text-anchor="middle" font-size="10" fill="#7a2000">Apollo: ordine, ragione, luce → scultura</text>
+  <text x="202" y="272" text-anchor="middle" font-size="10" fill="#7a2000">Dioniso: vita, irrazionalità, ebbrezza → musica</text>
+  <text x="202" y="287" text-anchor="middle" font-size="10" fill="#7a2000">Tragedia greca (Eschilo/Sofocle): sintesi perfetta</text>
+  <line x1="60" y1="295" x2="344" y2="295" stroke="#e08040" stroke-width="0.5"/>
+  <text x="202" y="311" text-anchor="middle" font-size="10" fill="#7a2000">Euripide→Socrate: trionfo dell'apollineo</text>
+  <text x="202" y="326" text-anchor="middle" font-size="10" fill="#7a2000">La ragione soffoca la vita</text>
+  <line x1="60" y1="334" x2="344" y2="334" stroke="#e08040" stroke-width="0.5"/>
+  <text x="202" y="350" text-anchor="middle" font-size="10" fill="#7a2000">Morale degli schiavi (Cristianesimo):</text>
+  <text x="202" y="365" text-anchor="middle" font-size="10" fill="#7a2000">rinuncia, umiltà, risentimento dei deboli</text>
+  <text x="202" y="374" text-anchor="middle" font-size="10" font-style="italic" fill="#9a3010">vs morale dei signori: forza, orgoglio, valore</text>
+
+  <!-- ② PERIODO ILLUMINISTICO: x=401 y=182 w=320 h=207 -->
+  <rect x="401" y="182" width="320" height="207" rx="9"
+        fill="#fce8d0" stroke="#c05010" stroke-width="0.8"/>
+  <text x="561" y="202" text-anchor="middle"
+        font-size="12" font-weight="bold" fill="#5a1000">② Periodo illuministico (1878–82)</text>
+  <text x="561" y="218" text-anchor="middle" font-size="10" fill="#7a2000">«Umano, troppo umano» · «La gaia scienza»</text>
+  <line x1="419" y1="225" x2="703" y2="225" stroke="#e08040" stroke-width="0.5"/>
+  <text x="561" y="241" text-anchor="middle" font-size="11" font-weight="bold" fill="#5a1000">La morte di Dio</text>
+  <text x="561" y="257" text-anchor="middle" font-size="10" fill="#7a2000">Gli uomini non hanno più bisogno di Dio</text>
+  <text x="561" y="272" text-anchor="middle" font-size="10" fill="#7a2000">Non contro Cristo (»santo anarchico»)</text>
+  <text x="561" y="287" text-anchor="middle" font-size="10" fill="#7a2000">ma contro la Chiesa e la morale ascetica</text>
+  <line x1="419" y1="295" x2="703" y2="295" stroke="#e08040" stroke-width="0.5"/>
+  <text x="561" y="311" text-anchor="middle" font-size="11" font-weight="bold" fill="#5a1000">Metodo genealogico</text>
+  <text x="561" y="327" text-anchor="middle" font-size="10" fill="#7a2000">Scoprire le origini storiche dei valori morali</text>
+  <text x="561" y="342" text-anchor="middle" font-size="10" fill="#7a2000">Il sospetto come metodo: nessuna verità immutabile</text>
+  <line x1="419" y1="350" x2="703" y2="350" stroke="#e08040" stroke-width="0.5"/>
+  <text x="561" y="366" text-anchor="middle" font-size="10" fill="#7a2000">Critica a: Romanticismo, Idealismo,</text>
+  <text x="561" y="374" text-anchor="middle" font-size="10" font-style="italic" fill="#9a3010">Positivismo, Socialismo, Evoluzionismo</text>
+
+  <!-- ③ PERIODO ZARATHUSTRA: x=760 y=182 w=320 h=207 -->
+  <rect x="760" y="182" width="320" height="207" rx="9"
+        fill="#f8d8b0" stroke="#a04000" stroke-width="1"/>
+  <text x="920" y="202" text-anchor="middle"
+        font-size="12" font-weight="bold" fill="#4a1000">③ Periodo Zarathustra (1883–85)</text>
+  <text x="920" y="218" text-anchor="middle" font-size="10" fill="#7a2000">«Così parlò Zarathustra»</text>
+  <line x1="778" y1="225" x2="1062" y2="225" stroke="#e08040" stroke-width="0.5"/>
+  <text x="920" y="241" text-anchor="middle" font-size="11" font-weight="bold" fill="#4a1000">Il Superuomo (Übermensch)</text>
+  <text x="920" y="257" text-anchor="middle" font-size="10" fill="#7a2000">Impone al mondo i propri significati</text>
+  <text x="920" y="272" text-anchor="middle" font-size="10" fill="#7a2000">«Divieni ciò che sei» — volontà di potenza</text>
+  <line x1="778" y1="280" x2="1062" y2="280" stroke="#e08040" stroke-width="0.5"/>
+  <text x="920" y="296" text-anchor="middle" font-size="11" font-weight="bold" fill="#4a1000">Eterno ritorno dell'uguale</text>
+  <text x="920" y="312" text-anchor="middle" font-size="10" fill="#7a2000">Tempo ciclico (vs lineare cristiano)</text>
+  <text x="920" y="327" text-anchor="middle" font-size="10" fill="#7a2000">Ogni istante ha valore in sé — vivi al massimo</text>
+  <line x1="778" y1="335" x2="1062" y2="335" stroke="#e08040" stroke-width="0.5"/>
+  <text x="920" y="351" text-anchor="middle" font-size="11" font-weight="bold" fill="#4a1000">Nichilismo attivo</text>
+  <text x="920" y="367" text-anchor="middle" font-size="10" fill="#7a2000">Accetta il nulla — crea nuovi valori</text>
+  <text x="920" y="375" text-anchor="middle" font-size="10" font-style="italic" fill="#9a3010">Trasvalutazione di tutti i valori</text>
+
+  <!-- Frecce tra periodi -->
+  <line x1="362" y1="285" x2="399" y2="285"
+        stroke="#a04000" stroke-width="1" marker-end="url(#arr)"/>
+  <line x1="721" y1="285" x2="758" y2="285"
+        stroke="#a04000" stroke-width="1" marker-end="url(#arr)"/>
+
+  <!-- ══ ROW 4: TRE METAMORFOSI + MESSAGGIO ══ y=420..510 -->
+
+  <!-- Frecce → row4 -->
+  <path d="M202 389 L202 410 L290 410 L290 420"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <path d="M920 389 L920 410 L810 410 L810 420"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+
+  <!-- Tre metamorfosi: x=50 y=420 w=530 h=88 -->
+  <rect x="50" y="420" width="530" height="88" rx="9"
+        fill="#ffe8c8" stroke="#b05010" stroke-width="0.8"/>
+  <text x="315" y="441" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#4a1000">Le tre metamorfosi dello spirito</text>
+  <line x1="68" y1="450" x2="562" y2="450" stroke="#d07030" stroke-width="0.5"/>
+  <!-- inline -->
+  <text x="140" y="467" text-anchor="middle" font-size="11" font-weight="bold" fill="#7a2000">🐪 Cammello</text>
+  <text x="140" y="482" text-anchor="middle" font-size="10" fill="#7a2000">«Tu devi»</text>
+  <text x="140" y="496" text-anchor="middle" font-size="10" fill="#7a2000">fedele alla tradizione</text>
+  <line x1="218" y1="455" x2="218" y2="505" stroke="#e0a060" stroke-width="0.5"/>
+  <text x="315" y="467" text-anchor="middle" font-size="11" font-weight="bold" fill="#7a2000">🦁 Leone</text>
+  <text x="315" y="482" text-anchor="middle" font-size="10" fill="#7a2000">«Io voglio»</text>
+  <text x="315" y="496" text-anchor="middle" font-size="10" fill="#7a2000">abbatte i vecchi valori</text>
+  <line x1="412" y1="455" x2="412" y2="505" stroke="#e0a060" stroke-width="0.5"/>
+  <text x="490" y="467" text-anchor="middle" font-size="11" font-weight="bold" fill="#7a2000">👶 Fanciullo</text>
+  <text x="490" y="482" text-anchor="middle" font-size="10" fill="#7a2000">«Io sono»</text>
+  <text x="490" y="496" text-anchor="middle" font-size="10" fill="#7a2000">Superuomo — nuovi valori</text>
+
+  <!-- Messaggio filosofico: x=600 y=420 w=472 h=88 -->
+  <rect x="600" y="420" width="472" height="88" rx="9"
+        fill="#fdf5ee" stroke="#b06020" stroke-width="0.8" stroke-dasharray="5,3"/>
+  <text x="836" y="441" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#4a2000">Messaggio filosofico — non politico</text>
+  <line x1="618" y1="450" x2="1054" y2="450" stroke="#d09050" stroke-width="0.5"/>
+  <text x="836" y="467" text-anchor="middle" font-size="10" fill="#6a3000">Antipolitico, individualista, anarchico</text>
+  <text x="836" y="482" text-anchor="middle" font-size="10" fill="#6a3000">Critica: statalismo, democrazia, nazionalismo, socialismo</text>
+  <text x="836" y="496" text-anchor="middle" font-size="10" font-style="italic" fill="#8a4000">Ogni lettura politica di Nietzsche è una forzatura</text>
+
+  <!-- ══ SINTESI FINALE ══ y=530..584 -->
+
+  <path d="M315 508 L315 522 L561 522 L561 530"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <path d="M836 508 L836 522 L561 522"
+        fill="none" stroke="#555" stroke-width="1"/>
+
+  <rect x="80" y="530" width="962" height="55" rx="10"
+        fill="#5a1a00" stroke="#2a0a00" stroke-width="1"/>
+  <text x="561" y="553" text-anchor="middle"
+        font-size="14" font-weight="bold" fill="#ffffff">Sintesi: accettare la vita tragica e creare nuovi valori — oltre il nichilismo</text>
+  <text x="561" y="573" text-anchor="middle"
+        font-size="11" fill="#f0c090">Morte di Dio → Superuomo → Eterno ritorno: il ciclo della piena affermazione dell'esistenza</text>
+
+  <!-- ══ LEGENDA ══ -->
+  <rect x="80" y="610" width="12" height="12" rx="2" fill="#5a1a00"/>
+  <text x="98" y="621" font-size="10" fill="#555">Nodo centrale / Sintesi</text>
+
+  <rect x="235" y="610" width="12" height="12" rx="2" fill="#f5ede0" stroke="#a07030" stroke-width="0.8"/>
+  <text x="253" y="621" font-size="10" fill="#555">Radici (Schopenhauer)</text>
+
+  <rect x="378" y="610" width="12" height="12" rx="2" fill="#fce8d0" stroke="#c05010" stroke-width="0.8"/>
+  <text x="396" y="621" font-size="10" fill="#555">Periodi I e II</text>
+
+  <rect x="468" y="610" width="12" height="12" rx="2" fill="#f8d8b0" stroke="#a04000" stroke-width="1"/>
+  <text x="486" y="621" font-size="10" fill="#555">Periodo III (Zarathustra)</text>
+
+  <rect x="614" y="610" width="12" height="12" rx="2" fill="#ffe8c8" stroke="#b05010" stroke-width="0.8"/>
+  <text x="632" y="621" font-size="10" fill="#555">Tre metamorfosi</text>
+
+  <rect x="728" y="610" width="12" height="12" rx="2" fill="#fce8e8" stroke="#b03030" stroke-width="0.8" stroke-dasharray="4,2"/>
+  <text x="746" y="621" font-size="10" fill="#555">Avvertenze critiche</text>
+
+  <line x1="874" y1="616" x2="894" y2="616" stroke="#a04000" stroke-width="1" marker-end="url(#arr)"/>
+  <text x="900" y="621" font-size="10" fill="#555">Evoluzione fasi</text>
+
+  <line x1="1002" y1="616" x2="1022" y2="616" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <text x="1028" y="621" font-size="10" fill="#555">Derivazione</text>
+
+</svg>

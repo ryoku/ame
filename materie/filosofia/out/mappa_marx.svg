@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1122 794" width="1122" height="794"
+     style="font-family: Georgia, 'Times New Roman', serif; background: #ffffff;">
+
+  <title>Mappa concettuale: Karl Marx — dal primato della teoria al primato dell'azione</title>
+
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="#555"
+            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arr-d" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="#aaa"
+            stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- ══ NODO CENTRALE ══ -->
+  <rect x="261" y="28" width="600" height="54" rx="12"
+        fill="#6a1010" stroke="#3a0000" stroke-width="1"/>
+  <text x="561" y="51" text-anchor="middle"
+        font-size="17" font-weight="bold" fill="#ffffff">Karl Marx (1818–1883)</text>
+  <text x="561" y="72" text-anchor="middle"
+        font-size="11" fill="#f0a0a0">Dal primato della teoria al primato dell'azione — filosofia della prassi</text>
+
+  <!-- ══ ROW 2: TRE FONTI + CRITICA HEGEL/FEUERBACH ══ y=100..175 -->
+
+  <path d="M400 82 L400 95 L185 95 L185 100"
+        fill="none" stroke="#aaa" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arr-d)"/>
+  <line x1="561" y1="82" x2="561" y2="100"
+        stroke="#8a2020" stroke-width="1.2" marker-end="url(#arr)"/>
+  <path d="M722 82 L722 95 L937 95 L937 100"
+        fill="none" stroke="#aaa" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arr-d)"/>
+
+  <!-- Tre fonti: x=50 y=100 w=270 h=78 -->
+  <rect x="50" y="100" width="270" height="78" rx="9"
+        fill="#f5e8e8" stroke="#a03030" stroke-width="0.8"/>
+  <text x="185" y="121" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#4a0a0a">Tre tradizioni di provenienza</text>
+  <line x1="68" y1="130" x2="302" y2="130" stroke="#d08080" stroke-width="0.5"/>
+  <text x="185" y="146" text-anchor="middle" font-size="10" fill="#6a1a1a">Filosofia tedesca (Hegel, Sinistra hegeliana)</text>
+  <text x="185" y="161" text-anchor="middle" font-size="10" fill="#6a1a1a">Socialismo francese</text>
+  <text x="185" y="171" text-anchor="middle" font-size="10" fill="#6a1a1a">Economia politica inglese (Smith, Ricardo)</text>
+
+  <!-- Critica a Hegel e Feuerbach: x=340 y=100 w=442 h=78 -->
+  <rect x="340" y="100" width="442" height="78" rx="9"
+        fill="#6a1010" stroke="#3a0000" stroke-width="0.8"/>
+  <text x="561" y="121" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#ffffff">La svolta: critica a Hegel e Feuerbach</text>
+  <line x1="358" y1="130" x2="764" y2="130" stroke="#903030" stroke-width="0.5"/>
+  <text x="561" y="146" text-anchor="middle" font-size="10" fill="#f0c0c0">Hegel: non lo Spirito, ma i rapporti materiali muovono la storia</text>
+  <text x="561" y="161" text-anchor="middle" font-size="10" fill="#f0c0c0">Feuerbach: il materialismo è giusto ma troppo teorico — serve l'azione</text>
+  <text x="561" y="173" text-anchor="middle" font-size="10" font-style="italic" fill="#ffb0b0">«I filosofi hanno interpretato il mondo; si tratta di cambiarlo»</text>
+
+  <!-- Religione: x=802 y=100 w=270 h=78 -->
+  <rect x="802" y="100" width="270" height="78" rx="9"
+        fill="#f5e8e8" stroke="#a03030" stroke-width="0.8"/>
+  <text x="937" y="121" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#4a0a0a">Religione come «oppio del popolo»</text>
+  <line x1="820" y1="130" x2="1054" y2="130" stroke="#d08080" stroke-width="0.5"/>
+  <text x="937" y="146" text-anchor="middle" font-size="10" fill="#6a1a1a">Non solo errore intellettuale:</text>
+  <text x="937" y="161" text-anchor="middle" font-size="10" fill="#6a1a1a">risposta di uomini oppressi</text>
+  <text x="937" y="173" text-anchor="middle" font-size="10" fill="#6a1a1a">Serve trasformare i rapporti sociali</text>
+
+  <!-- ══ ROW 3: MATERIALISMO STORICO + ALIENAZIONE ══ y=200..300 -->
+
+  <!-- sfondo banda -->
+  <rect x="30" y="196" width="1062" height="107" rx="9"
+        fill="#fff5f0" stroke="#d09060" stroke-width="0.5"/>
+  <text x="561" y="213" text-anchor="middle"
+        font-size="10" fill="#906040" font-style="italic">Teorie fondamentali</text>
+
+  <!-- Frecce row2 → row3 -->
+  <path d="M450 178 L450 190 L250 190 L250 196"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <path d="M561 178 L561 196"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <path d="M700 178 L700 190 L870 190 L870 196"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+
+  <!-- Materialismo storico: x=42 y=218 w=490 h=76 -->
+  <rect x="42" y="218" width="490" height="76" rx="8"
+        fill="#fde8d0" stroke="#b06020" stroke-width="0.8"/>
+  <text x="287" y="239" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#4a1a00">Materialismo storico</text>
+  <line x1="60" y1="248" x2="514" y2="248" stroke="#d09050" stroke-width="0.5"/>
+  <text x="287" y="264" text-anchor="middle" font-size="10" fill="#6a3000">STRUTTURA: forze produttive + rapporti di produzione</text>
+  <text x="287" y="279" text-anchor="middle" font-size="10" fill="#6a3000">SOVRASTRUTTURA: diritto, politica, religione, cultura</text>
+  <text x="287" y="287" text-anchor="middle" font-size="10" font-style="italic" fill="#8a4000">È la vita materiale a formare la coscienza, non viceversa</text>
+
+  <!-- Alienazione: x=548 y=218 w=490 h=76 -->
+  <rect x="548" y="218" width="490" height="76" rx="8"
+        fill="#fde8d0" stroke="#b06020" stroke-width="0.8"/>
+  <text x="793" y="239" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#4a1a00">Alienazione del lavoro</text>
+  <line x1="566" y1="248" x2="1020" y2="248" stroke="#d09050" stroke-width="0.5"/>
+  <text x="793" y="264" text-anchor="middle" font-size="10" fill="#6a3000">L'operaio è separato da: prodotto / attività / sé stesso / gli altri</text>
+  <text x="793" y="279" text-anchor="middle" font-size="10" fill="#6a3000">Causa: proprietà privata dei mezzi di produzione</text>
+  <text x="793" y="287" text-anchor="middle" font-size="10" font-style="italic" fill="#8a4000">Non problema spirituale: fatto storico e sociale</text>
+
+  <!-- ══ ROW 4: LOTTA DI CLASSE + IL CAPITALE ══ y=325..435 -->
+
+  <!-- sfondo banda -->
+  <rect x="30" y="320" width="1062" height="115" rx="9"
+        fill="#fff0f5" stroke="#c07080" stroke-width="0.5"/>
+  <text x="561" y="337" text-anchor="middle"
+        font-size="10" fill="#904050" font-style="italic">Analisi della società capitalistica</text>
+
+  <!-- Frecce row3 → row4 -->
+  <line x1="287" y1="294" x2="287" y2="320"
+        stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <line x1="793" y1="294" x2="793" y2="320"
+        stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+
+  <!-- Lotta di classe (Manifesto): x=42 y=342 w=470 h=84 -->
+  <rect x="42" y="342" width="470" height="84" rx="8"
+        fill="#f8d8e0" stroke="#a03050" stroke-width="0.8"/>
+  <text x="277" y="363" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#4a0820">Lotta di classe (Manifesto, 1848)</text>
+  <line x1="60" y1="372" x2="494" y2="372" stroke="#d07090" stroke-width="0.5"/>
+  <text x="277" y="388" text-anchor="middle" font-size="10" fill="#6a1030">La storia è storia di lotte tra classi: dominatori vs dominati</text>
+  <text x="277" y="403" text-anchor="middle" font-size="10" fill="#6a1030">Capitalismo: borghesia vs proletariato</text>
+  <text x="277" y="418" text-anchor="middle" font-size="10" fill="#6a1030">La borghesia ha avuto un ruolo rivoluzionario ma ha generato il suo antagonista</text>
+
+  <!-- Il Capitale: x=528 y=342 w=530 h=84 -->
+  <rect x="528" y="342" width="530" height="84" rx="8"
+        fill="#f8d8e0" stroke="#a03050" stroke-width="0.8"/>
+  <text x="793" y="363" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#4a0820">Il Capitale — meccanismi dello sfruttamento</text>
+  <line x1="546" y1="372" x2="1040" y2="372" stroke="#d07090" stroke-width="0.5"/>
+  <text x="793" y="388" text-anchor="middle" font-size="10" fill="#6a1030">Merce = valore d'uso + valore di scambio (tempo di lavoro necessario)</text>
+  <text x="793" y="403" text-anchor="middle" font-size="10" fill="#6a1030">Plusvalore: differenza tra valore prodotto e salario pagato → profitto</text>
+  <text x="793" y="418" text-anchor="middle" font-size="10" fill="#6a1030">Meccanizzazione → compressione del profitto → crisi cicliche del capitalismo</text>
+
+  <!-- ══ ROW 5: RIVOLUZIONE E FASI + STATO LIBERALE ══ y=453..548 -->
+
+  <!-- Frecce row4 → row5 -->
+  <path d="M277 426 L277 445 L240 445 L240 453"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <path d="M793 426 L793 445 L820 445 L820 453"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+
+  <!-- Stato liberale (critica): x=42 y=453 w=330 h=90 -->
+  <rect x="42" y="453" width="330" height="90" rx="8"
+        fill="#ffe8e0" stroke="#c04020" stroke-width="0.8"/>
+  <text x="207" y="474" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#4a1000">Critica allo Stato liberale</text>
+  <line x1="60" y1="483" x2="354" y2="483" stroke="#e07050" stroke-width="0.5"/>
+  <text x="207" y="499" text-anchor="middle" font-size="10" fill="#6a2000">Garantisce solo uguaglianza formale</text>
+  <text x="207" y="514" text-anchor="middle" font-size="10" fill="#6a2000">Lascia intatte le disuguaglianze reali</text>
+  <text x="207" y="529" text-anchor="middle" font-size="10" fill="#6a2000">Esprime gli interessi della classe dominante</text>
+
+  <!-- Rivoluzione e fasi: x=388 y=453 w=672 h=90 -->
+  <rect x="388" y="453" width="672" height="90" rx="8"
+        fill="#ffe8e0" stroke="#c04020" stroke-width="0.8"/>
+  <text x="724" y="474" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#4a1000">Rivoluzione proletaria — tre fasi</text>
+  <line x1="406" y1="483" x2="1042" y2="483" stroke="#e07050" stroke-width="0.5"/>
+  <!-- tre fasi inline -->
+  <text x="524" y="499" text-anchor="middle" font-size="11" font-weight="bold" fill="#7a1a00">① Transizione</text>
+  <text x="524" y="514" text-anchor="middle" font-size="10" fill="#6a2000">Dittatura del proletariato</text>
+  <text x="524" y="529" text-anchor="middle" font-size="10" fill="#6a2000">abbatte lo Stato borghese</text>
+  <line x1="638" y1="488" x2="638" y2="540" stroke="#e0b090" stroke-width="0.5"/>
+  <text x="724" y="499" text-anchor="middle" font-size="11" font-weight="bold" fill="#7a1a00">② Socialismo</text>
+  <text x="724" y="514" text-anchor="middle" font-size="10" fill="#6a2000">Collettivizzazione dei</text>
+  <text x="724" y="529" text-anchor="middle" font-size="10" fill="#6a2000">mezzi di produzione</text>
+  <line x1="812" y1="488" x2="812" y2="540" stroke="#e0b090" stroke-width="0.5"/>
+  <text x="927" y="499" text-anchor="middle" font-size="11" font-weight="bold" fill="#7a1a00">③ Comunismo</text>
+  <text x="927" y="514" text-anchor="middle" font-size="10" fill="#6a2000">Spariscono classi e Stato</text>
+  <text x="927" y="529" text-anchor="middle" font-size="10" fill="#6a2000">Società senza sfruttamento</text>
+
+  <!-- ══ SINTESI FINALE ══ y=568..622 -->
+
+  <path d="M207 543 L207 558 L561 558 L561 568"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <path d="M724 543 L724 558 L561 558"
+        fill="none" stroke="#555" stroke-width="1"/>
+
+  <rect x="80" y="568" width="962" height="55" rx="10"
+        fill="#6a1010" stroke="#3a0000" stroke-width="1"/>
+  <text x="561" y="591" text-anchor="middle"
+        font-size="14" font-weight="bold" fill="#ffffff">Sintesi: conoscere la società per cambiarla</text>
+  <text x="561" y="611" text-anchor="middle"
+        font-size="11" fill="#f0b0b0">Individuare le contraddizioni, organizzare i soggetti storici, trasformare le condizioni materiali</text>
+
+  <!-- ══ LEGENDA ══ -->
+  <rect x="80" y="648" width="12" height="12" rx="2" fill="#6a1010"/>
+  <text x="98" y="659" font-size="10" fill="#555">Nodo centrale / Sintesi</text>
+
+  <rect x="235" y="648" width="12" height="12" rx="2" fill="#f5e8e8" stroke="#a03030" stroke-width="0.8"/>
+  <text x="253" y="659" font-size="10" fill="#555">Fonti e critiche</text>
+
+  <rect x="340" y="648" width="12" height="12" rx="2" fill="#fde8d0" stroke="#b06020" stroke-width="0.8"/>
+  <text x="358" y="659" font-size="10" fill="#555">Teorie fondamentali</text>
+
+  <rect x="470" y="648" width="12" height="12" rx="2" fill="#f8d8e0" stroke="#a03050" stroke-width="0.8"/>
+  <text x="488" y="659" font-size="10" fill="#555">Analisi capitalismo</text>
+
+  <rect x="600" y="648" width="12" height="12" rx="2" fill="#ffe8e0" stroke="#c04020" stroke-width="0.8"/>
+  <text x="618" y="659" font-size="10" fill="#555">Rivoluzione e Stato</text>
+
+  <line x1="740" y1="654" x2="760" y2="654" stroke="#aaa" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="766" y="659" font-size="10" fill="#555">Influenza/contesto</text>
+
+  <line x1="880" y1="654" x2="900" y2="654" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <text x="906" y="659" font-size="10" fill="#555">Derivazione diretta</text>
+
+</svg>

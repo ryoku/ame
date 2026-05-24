@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1122 794" width="1122" height="794"
+     style="font-family: Georgia, 'Times New Roman', serif; background: #ffffff;">
+
+  <title>Mappa concettuale: Arthur Schopenhauer — critica all'idealismo e pessimismo filosofico</title>
+
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="#555"
+            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arr-d" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1L9 5L1 9" fill="none" stroke="#aaa"
+            stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <!-- ══ NODO CENTRALE ══ -->
+  <rect x="251" y="28" width="620" height="54" rx="12"
+        fill="#2a2a4a" stroke="#10102a" stroke-width="1"/>
+  <text x="561" y="51" text-anchor="middle"
+        font-size="17" font-weight="bold" fill="#ffffff">Arthur Schopenhauer (1788–1860)</text>
+  <text x="561" y="72" text-anchor="middle"
+        font-size="11" fill="#b0b0e0">Critica all'idealismo — Pessimismo filosofico — Il mondo come volontà e rappresentazione</text>
+
+  <!-- ══ ROW 2: CONTESTO + CONOSCENZA ══ y=100..178 -->
+
+  <path d="M400 82 L400 94 L185 94 L185 100"
+        fill="none" stroke="#aaa" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arr-d)"/>
+  <line x1="650" y1="82" x2="650" y2="100"
+        stroke="#4a4a8a" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- Contesto — opposizione a Hegel: x=50 y=100 w=290 h=78 -->
+  <rect x="50" y="100" width="290" height="78" rx="9"
+        fill="#eeeef8" stroke="#6060a0" stroke-width="0.8"/>
+  <text x="195" y="121" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#1a1a50">Opposizione a Hegel</text>
+  <line x1="68" y1="130" x2="322" y2="130" stroke="#9090c0" stroke-width="0.5"/>
+  <text x="195" y="146" text-anchor="middle" font-size="10" fill="#2a2a70">Per Hegel: realtà razionale, orientata al bene</text>
+  <text x="195" y="161" text-anchor="middle" font-size="10" fill="#2a2a70">Per Schopenhauer: fondo irrazionale, doloroso,</text>
+  <text x="195" y="171" text-anchor="middle" font-size="10" fill="#2a2a70">senza fine positivo</text>
+
+  <!-- Teoria della conoscenza: x=360 y=100 w=712 h=78 -->
+  <rect x="360" y="100" width="712" height="78" rx="9"
+        fill="#2a2a4a" stroke="#10102a" stroke-width="0.8"/>
+  <text x="716" y="121" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#ffffff">Il mondo come rappresentazione</text>
+  <line x1="378" y1="130" x2="1054" y2="130" stroke="#5050a0" stroke-width="0.5"/>
+  <text x="716" y="146" text-anchor="middle" font-size="10" fill="#c0c0f0">Il mondo che vediamo non è la realtà ultima: è rappresentazione costruita dal soggetto</text>
+  <text x="716" y="161" text-anchor="middle" font-size="10" fill="#c0c0f0">Forme a priori: spazio, tempo, causalità  |  Il velo di Maya nasconde il vero fondo delle cose</text>
+  <text x="716" y="173" text-anchor="middle" font-size="10" font-style="italic" fill="#a0a0e0">Riprende Kant: fenomeno / noumeno — ma il noumeno è accessibile dall'interno</text>
+
+  <!-- ══ ROW 3: LA VOLONTÀ DI VIVERE (nodo centrale row) ══ y=200..268 -->
+
+  <line x1="561" y1="178" x2="561" y2="200"
+        stroke="#4a4a8a" stroke-width="1.3" marker-end="url(#arr)"/>
+
+  <rect x="160" y="200" width="802" height="68" rx="10"
+        fill="#3a1a3a" stroke="#1a001a" stroke-width="1"/>
+  <text x="561" y="224" text-anchor="middle"
+        font-size="14" font-weight="bold" fill="#ffffff">La Volontà di vivere — essenza profonda del mondo</text>
+  <line x1="178" y1="232" x2="944" y2="232" stroke="#703070" stroke-width="0.5"/>
+  <text x="561" y="248" text-anchor="middle" font-size="10" fill="#e0b0e0">Forza cieca, irrazionale, incessante, senza scopo — presente in ogni livello della realtà</text>
+  <text x="561" y="262" text-anchor="middle" font-size="10" font-style="italic" fill="#d090d0">L'uomo non è «io penso» (Cartesio/Hegel) ma «io voglio»  |  Dal corpo si intuisce il noumeno</text>
+
+  <!-- ══ ROW 4: PESSIMISMO + AMORE/RELIGIONE ══ y=290..390 -->
+
+  <!-- Frecce volontà → riga4 -->
+  <path d="M400 268 L400 282 L250 282 L250 290"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <path d="M722 268 L722 282 L880 282 L880 290"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+
+  <!-- sfondo banda -->
+  <rect x="30" y="286" width="1062" height="107" rx="9"
+        fill="#faf0f5" stroke="#c090a0" stroke-width="0.5"/>
+  <text x="561" y="303" text-anchor="middle"
+        font-size="10" fill="#906070" font-style="italic">Conseguenze del pessimismo</text>
+
+  <!-- Pessimismo: x=42 y=308 w=490 h=76 -->
+  <rect x="42" y="308" width="490" height="76" rx="8"
+        fill="#f0d8e8" stroke="#904060" stroke-width="0.8"/>
+  <text x="287" y="329" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#3a0820">Il pessimismo — struttura dell'esistenza</text>
+  <line x1="60" y1="338" x2="514" y2="338" stroke="#c07090" stroke-width="0.5"/>
+  <text x="287" y="354" text-anchor="middle" font-size="10" fill="#5a1030">Desiderio = mancanza = sofferenza</text>
+  <text x="287" y="369" text-anchor="middle" font-size="10" fill="#5a1030">La vita oscilla tra dolore e noia, con brevi piaceri</text>
+  <text x="287" y="377" text-anchor="middle" font-size="10" font-style="italic" fill="#7a2040">Il dolore non è accidentale: è la condizione strutturale dell'esistenza</text>
+
+  <!-- Amore e Religione: x=548 y=308 w=530 h=76 -->
+  <rect x="548" y="308" width="530" height="76" rx="8"
+        fill="#f0d8e8" stroke="#904060" stroke-width="0.8"/>
+  <text x="813" y="329" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#3a0820">Amore e religione: illusioni</text>
+  <line x1="566" y1="338" x2="1060" y2="338" stroke="#c07090" stroke-width="0.5"/>
+  <text x="813" y="354" text-anchor="middle" font-size="10" fill="#5a1030">Amore: dietro l'innamoramento agisce l'istinto della specie</text>
+  <text x="813" y="369" text-anchor="middle" font-size="10" fill="#5a1030">Religione: consolazione costruita dagli uomini</text>
+  <text x="813" y="377" text-anchor="middle" font-size="10" font-style="italic" fill="#7a2040">Funzione psicologica reale, ma pur sempre un'illusione</text>
+
+  <!-- ══ ROW 5: TRE VIE DI LIBERAZIONE ══ y=415..530 -->
+
+  <!-- sfondo banda -->
+  <rect x="30" y="410" width="1062" height="120" rx="9"
+        fill="#f0f8f0" stroke="#609060" stroke-width="0.5"/>
+  <text x="561" y="427" text-anchor="middle"
+        font-size="10" fill="#407040" font-style="italic">Tre vie di liberazione dalla volontà (cammino individuale)</text>
+
+  <!-- Frecce row4 → row5 -->
+  <path d="M287 384 L287 402 L220 402 L220 410"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <path d="M561 384 L561 402 L561 410"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <path d="M813 384 L813 402 L900 402 L900 410"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+
+  <!-- ARTE: x=42 y=432 w=320 h=88 -->
+  <rect x="42" y="432" width="320" height="88" rx="8"
+        fill="#daeeda" stroke="#3a8040" stroke-width="0.8"/>
+  <text x="202" y="453" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#0a3010">① Arte</text>
+  <line x1="60" y1="462" x2="344" y2="462" stroke="#60b060" stroke-width="0.5"/>
+  <text x="202" y="478" text-anchor="middle" font-size="10" fill="#1a5020">Contemplazione estetica: sospende il desiderio</text>
+  <text x="202" y="493" text-anchor="middle" font-size="10" fill="#1a5020">Pausa dalla sofferenza, non liberazione definitiva</text>
+  <text x="202" y="508" text-anchor="middle" font-size="10" font-style="italic" fill="#2a7030">La musica è l'arte più alta: esprime direttamente</text>
+  <text x="202" y="518" text-anchor="middle" font-size="10" font-style="italic" fill="#2a7030">la struttura profonda della realtà</text>
+
+  <!-- MORALE: x=381 y=432 w=360 h=88 -->
+  <rect x="381" y="432" width="360" height="88" rx="8"
+        fill="#daeeda" stroke="#3a8040" stroke-width="0.8"/>
+  <text x="561" y="453" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#0a3010">② Morale della compassione</text>
+  <line x1="399" y1="462" x2="723" y2="462" stroke="#60b060" stroke-width="0.5"/>
+  <text x="561" y="478" text-anchor="middle" font-size="10" fill="#1a5020">Giustizia: evitare di far soffrire gli altri</text>
+  <text x="561" y="493" text-anchor="middle" font-size="10" fill="#1a5020">Carità: riconoscere il dolore altrui come il proprio</text>
+  <text x="561" y="508" text-anchor="middle" font-size="10" fill="#1a5020">Superamento dell'egoismo che alimenta il conflitto</text>
+
+  <!-- ASCESI: x=760 y=432 w=320 h=88 -->
+  <rect x="760" y="432" width="320" height="88" rx="8"
+        fill="#c8e8c8" stroke="#2a7030" stroke-width="1"/>
+  <text x="920" y="453" text-anchor="middle"
+        font-size="13" font-weight="bold" fill="#0a3010">③ Ascesi (via più radicale)</text>
+  <line x1="778" y1="462" x2="1062" y2="462" stroke="#60b060" stroke-width="0.5"/>
+  <text x="920" y="478" text-anchor="middle" font-size="10" fill="#1a5020">Rinuncia ai desideri e all'attaccamento alla vita</text>
+  <text x="920" y="493" text-anchor="middle" font-size="10" fill="#1a5020">La volontà viene progressivamente negata</text>
+  <text x="920" y="508" text-anchor="middle" font-size="10" font-style="italic" fill="#2a7030">Nirvana: quiete, spegnimento del desiderio,</text>
+  <text x="920" y="518" text-anchor="middle" font-size="10" font-style="italic" fill="#2a7030">liberazione dal dolore</text>
+
+  <!-- ══ SINTESI FINALE ══ y=548..603 -->
+
+  <path d="M202 520 L202 536 L561 536 L561 548"
+        fill="none" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <path d="M561 520 L561 536" fill="none" stroke="#555" stroke-width="1"/>
+  <path d="M920 520 L920 536 L561 536" fill="none" stroke="#555" stroke-width="1"/>
+
+  <rect x="80" y="548" width="962" height="55" rx="10"
+        fill="#2a2a4a" stroke="#10102a" stroke-width="1"/>
+  <text x="561" y="571" text-anchor="middle"
+        font-size="14" font-weight="bold" fill="#ffffff">Sintesi: la realtà non è trionfo della ragione, ma dominio di una volontà cieca</text>
+  <text x="561" y="591" text-anchor="middle"
+        font-size="11" fill="#b0b0e0">Riconoscere la verità tragica dell'esistenza è il primo passo verso l'arte, la compassione e la liberazione</text>
+
+  <!-- ══ LEGENDA ══ -->
+  <rect x="80" y="628" width="12" height="12" rx="2" fill="#2a2a4a"/>
+  <text x="98" y="639" font-size="10" fill="#555">Nodo centrale / Sintesi</text>
+
+  <rect x="235" y="628" width="12" height="12" rx="2" fill="#eeeef8" stroke="#6060a0" stroke-width="0.8"/>
+  <text x="253" y="639" font-size="10" fill="#555">Contesto (vs Hegel)</text>
+
+  <rect x="360" y="628" width="12" height="12" rx="2" fill="#3a1a3a"/>
+  <text x="378" y="639" font-size="10" fill="#555">Volontà di vivere</text>
+
+  <rect x="470" y="628" width="12" height="12" rx="2" fill="#f0d8e8" stroke="#904060" stroke-width="0.8"/>
+  <text x="488" y="639" font-size="10" fill="#555">Pessimismo e illusioni</text>
+
+  <rect x="615" y="628" width="12" height="12" rx="2" fill="#daeeda" stroke="#3a8040" stroke-width="0.8"/>
+  <text x="633" y="639" font-size="10" fill="#555">Arte e morale</text>
+
+  <rect x="720" y="628" width="12" height="12" rx="2" fill="#c8e8c8" stroke="#2a7030" stroke-width="1"/>
+  <text x="738" y="639" font-size="10" fill="#555">Ascesi (via suprema)</text>
+
+  <line x1="870" y1="634" x2="890" y2="634" stroke="#aaa" stroke-width="1" stroke-dasharray="4,2"/>
+  <text x="896" y="639" font-size="10" fill="#555">Contesto/influenza</text>
+
+  <line x1="1010" y1="634" x2="1030" y2="634" stroke="#555" stroke-width="1" marker-end="url(#arr)"/>
+  <text x="1036" y="639" font-size="10" fill="#555">Derivazione</text>
+
+</svg>
